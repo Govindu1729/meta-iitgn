@@ -739,7 +739,7 @@ export default function ProfileContent() {
                 </div>
                 <button
                   type="button"
-                  onClick={() => setActiveOverlay("categories")}
+                  onClick={() => router.push("/wiki/categories")}
                   className="btn btn-warning btn-sm mt-4 w-full rounded-xl text-warning-content cursor-pointer"
                 >
                   <BookOpen className="h-4 w-4" /> Find an article
