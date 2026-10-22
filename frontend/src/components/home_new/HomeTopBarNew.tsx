@@ -30,7 +30,7 @@ export default function HomeTopBarNew({
   onOpenNews,
   onSearchFocus,
 }: HomeTopBarNewProps) {
-  const { user } = useAuth();
+  const { user,setSettingsTab } = useAuth();
   const { theme, setTheme } = useCommonStore();
 
   const isDarkMode =
@@ -62,20 +62,18 @@ export default function HomeTopBarNew({
           <Link
             href="/"
             onClick={() => setActiveTab("home")}
-            className="font-serif text-lg font-black text-primary tracking-tight"
+            className="font-serif text-lg font-black text-primary tracking-tight flex gap-2 items-center"
           >
-            META <span className="font-sans text-[10px] font-bold text-base-content/70">IITGN</span>
+            <span className="font-serif text-2xl font-extrabold tracking-tight text-blue-400">
+              META
+            </span>
+            <span className="text-xs font-sans font-bold uppercase tracking-wider text-base-content/70">
+              IITGN
+            </span>
           </Link>
         </div>
 
         <div className="flex items-center gap-1">
-          <button
-            onClick={handleToggleTheme}
-            className="btn btn-ghost btn-sm btn-circle text-base-content/70"
-            aria-label="Toggle Theme"
-          >
-            {isDarkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4" />}
-          </button>
           <button
             onClick={onOpenNews}
             className="btn btn-ghost btn-sm btn-circle text-base-content/70 relative"

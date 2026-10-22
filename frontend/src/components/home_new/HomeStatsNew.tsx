@@ -18,7 +18,6 @@ import {
 import { useAuth } from "@/hooks/useAuth";
 
 interface HomeStatsNewProps {
-  pageCount?: number | null;
   newPages?: any[];
   updatedPages?: any[];
   pendingPages?: any[];
@@ -35,7 +34,6 @@ interface HomeStatsNewProps {
 }
 
 export default function HomeStatsNew({
-  pageCount,
   newPages = [],
   updatedPages = [],
   pendingPages = [],

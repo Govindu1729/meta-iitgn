@@ -1,45 +1,10 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { Compass, Play, Landmark, ArrowRight, Search } from "lucide-react";
+import { Landmark, ArrowRight } from "lucide-react";
 
-interface HomeHeroNewProps {
-  onExploreClick?: () => void;
-  onTourClick?: () => void;
-  onSearchFocus?: () => void;
-}
-
-export default function HomeHeroNew({
-  onExploreClick,
-  onTourClick,
-  onSearchFocus,
-}: HomeHeroNewProps) {
-  const router = useRouter();
-  const [searchVal, setSearchVal] = useState("");
-  const inputRef = useRef<HTMLInputElement>(null);
-
-  // Shortcut Ctrl+K / Cmd+K to focus hero search
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
-        e.preventDefault();
-        inputRef.current?.focus();
-        onSearchFocus?.();
-      }
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [onSearchFocus]);
-
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const query = searchVal.trim();
-    if (!query) return;
-    router.push(`/search-results?query=${encodeURIComponent(query)}`);
-  };
-
+export default function HomeHeroNew() {
   return (
     <div className="relative w-full rounded-2xl overflow-hidden shadow-xl border border-white/10 group min-h-[380px] sm:min-h-[420px] lg:min-h-[460px] flex flex-col justify-between p-6 sm:p-10 lg:p-12">
       {/* Background IITGN Campus Image */}
