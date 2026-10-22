@@ -458,7 +458,7 @@ export default function ProfileContent() {
     : (targetBookmarks ?? profileCache[targetUserId!]?.bookmarks ?? []);
 
   return (
-    <div className="mx-auto max-w-5xl space-y-6 pb-28 scrollbar-none">
+    <div className="mx-auto max-w-8xl space-y-6 pb-28 scrollbar-none">
       {/* ── Profile Header Card ─────────────────────────────────── */}
       <section className="relative overflow-hidden rounded-3xl border border-base-200 bg-base-100 shadow-sm">
         {/* Banner */}
@@ -749,7 +749,7 @@ export default function ProfileContent() {
           </div>
 
           {/* Profile README (takes place of recent activity) */}
-          <section className="rounded-3xl border border-base-200 bg-base-100 p-5 shadow-sm sm:p-6 flex flex-col h-[50dvh]">
+          <section className="rounded-3xl border border-base-200 bg-base-100 p-5 shadow-sm sm:p-6 flex flex-col min-h-[50dvh] h-fit">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-base font-black text-base-content">
                 Profile README

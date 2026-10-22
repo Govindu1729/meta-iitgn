@@ -36,11 +36,6 @@ export default function BottomNavbar({
 }: BottomNavbarProps) {
   return (
     <>
-      {/* Bottom gradient scrim (mobile/tablet): fades page content into the theme colour behind the navbar */}
-      <div
-        aria-hidden
-        className={`fixed inset-x-0 bottom-0 h-40 bg-gradient-to-t from-base-100 via-base-100/60 to-transparent lg:hidden pointer-events-none transition-opacity duration-300 z-[9998] ${hidden ? "opacity-0" : "opacity-100"}`}
-      />
       <div
         style={style}
         className={`z-9999 w-[min(92vw,42rem)] transition-all duration-300 ${hidden ? "pointer-events-none translate-y-24 opacity-0" : "translate-y-0 opacity-100"} ${className}`}

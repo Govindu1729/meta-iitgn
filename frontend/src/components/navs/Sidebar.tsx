@@ -35,8 +35,6 @@ import { VscFeedback } from "react-icons/vsc";
 import { SIDEBAR_SECTIONS } from "@/lib/constants";
 import { CategoryIcon } from "@/lib/categoryIcon";
 
-import Image from "next/image";
-
 // Local map for statically imported icons to avoid wildcard imports
 const ICON_MAP: Record<string, LucideIcon> = {
   Home,
@@ -112,6 +110,7 @@ export default function Sidebar({
     activePortalCategory,
   } = useHomeStore();
   const [showAllCategories, setShowAllCategories] = useState(false);
+
 
 
 

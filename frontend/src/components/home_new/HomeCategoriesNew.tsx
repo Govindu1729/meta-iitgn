@@ -4,17 +4,13 @@ import React from "react";
 import Link from "next/link";
 import {
   Users2,
-  BookOpen,
-  Landmark,
   Calendar,
   GraduationCap,
   Briefcase,
   TrendingUp,
-  MapPin,
   ArrowRight,
   PenTool,
   MessageSquare,
-  FileSpreadsheet,
   Trophy,
 } from "lucide-react";
 

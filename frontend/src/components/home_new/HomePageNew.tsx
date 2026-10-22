@@ -13,7 +13,6 @@ import HomeCategoriesNew from "./HomeCategoriesNew";
 interface HomePageNewProps {
   activeTab: "home" | "search" | "bookmarks" | "profile";
   setActiveTab: (tab: "home" | "search" | "bookmarks" | "profile") => void;
-  pageCount: number | null;
   newPages?: any[];
   updatedPages?: any[];
   pendingPages?: any[];
@@ -32,13 +31,11 @@ interface HomePageNewProps {
   searchComponent: React.ReactNode;
   bookmarksComponent: React.ReactNode;
   profileComponent: React.ReactNode;
-  onToggleClassicUi?: () => void;
 }
 
 export default function HomePageNew({
   activeTab,
   setActiveTab,
-  pageCount,
   newPages = [],
   updatedPages = [],
   pendingPages = [],
@@ -57,7 +54,6 @@ export default function HomePageNew({
   searchComponent,
   bookmarksComponent,
   profileComponent,
-  onToggleClassicUi,
 }: HomePageNewProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [mobileNavHidden, setMobileNavHidden] = useState(false);
@@ -109,15 +105,6 @@ export default function HomePageNew({
     [setActiveTab]
   );
 
-  const scrollToCategories = () => {
-    if (activeTab !== "home") {
-      setActiveTab("home");
-    }
-    setTimeout(() => {
-      categoriesRef.current?.scrollIntoView({ behavior: "smooth" });
-    }, 50);
-  };
-
   return (
     <div className="min-h-screen w-full bg-base-200/25 flex flex-col lg:pl-72 xl:pl-80 font-sans select-text">
       {/* 1. Persistent Application Sidebar on Desktop, Drawer on Mobile */}
@@ -141,25 +128,18 @@ export default function HomePageNew({
       />
 
       {/* 3. Main Centered Workspace (Framed to prevent overwhelming wide layout) */}
-      <main className="flex-1 w-full max-w-7xl mx-auto px-2 lg:px-4 py-4 sm:py-6 space-y-7 pb-28 lg:pb-8">
+      <main className="flex-1 w-full max-w-7xl mx-auto px-1 lg:px-4  sm:py-6 space-y-7 pb-10 lg:pb-8">
         {/* Hero Section & Live Wiki Tools (when Home tab is active) */}
         {activeTab === "home" && (
           <>
-            <HomeHeroNew
-              onExploreClick={scrollToCategories}
-              onTourClick={scrollToCategories}
-              onSearchFocus={() => {
-                // Focus search or transition
-              }}
-            />
+            <HomeHeroNew />
 
-              <HomeCategoriesNew
+            <HomeCategoriesNew
               onOpenPortal={onOpenPortal}
               onOpenAllCategories={onOpenAllCategories}
             />
             {/* Live Wiki Tools & Highlights (Pending Reviews for Admins, News for Normal Users) */}
             <HomeStatsNew
-              pageCount={pageCount}
               newPages={newPages}
               updatedPages={updatedPages}
               pendingPages={pendingPages}
@@ -188,7 +168,7 @@ export default function HomePageNew({
               {bookmarksComponent}
             </div>
           ) : activeTab === "profile" ? (
-            <div className="rounded-2xl border border-base-200 bg-base-100 p-2  shadow-sm">
+            <div className="rounded-2xl border border-base-200 bg-base-100 md:p-2   shadow-sm">
               {profileComponent}
             </div>
           ) : null}
@@ -209,19 +189,6 @@ export default function HomePageNew({
           }}
           className="fixed lg:hidden bottom-6 left-1/2 transform -translate-x-1/2 z-40"
         />
-      )}
-
-      {/* Floating UI Switcher to toggle classic vs modern UI for testing */}
-      {onToggleClassicUi && (
-        <div className="fixed bottom-4 right-4 z-50">
-          <button
-            onClick={onToggleClassicUi}
-            className="btn btn-xs rounded-full bg-base-300/90 hover:bg-base-300 text-base-content border border-base-content/20 shadow-xl backdrop-blur-md text-[11px] font-semibold cursor-pointer transition-all hover:scale-105"
-            title="Switch back to classic UI"
-          >
-            Switch to Classic UI
-          </button>
-        </div>
       )}
     </div>
   );
