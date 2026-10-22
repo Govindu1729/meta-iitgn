@@ -253,7 +253,7 @@ export default function BookmarksTab({
             <div className="w-14 h-14 bg-base-100 border border-base-200 rounded-2xl flex items-center justify-center text-primary shadow-sm mb-4 animate-pulse">
               <BookmarkIcon className="h-6 w-6" />
             </div>
-            <h3 className="text-base font-bold text-base-content font-serif">
+            <h3 className="text-xl font-bold text-base-content font-serif">
               Empty reading list
             </h3>
             <p className="text-xs text-base-content/60 mt-2 max-w-xs leading-relaxed">

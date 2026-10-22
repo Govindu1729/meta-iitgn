@@ -17,11 +17,9 @@ import {
   Calendar,
   Copy,
   Check,
-  FolderOpen,
   ArrowRight,
   BookmarkCheck,
   Briefcase,
-  GraduationCap,
 } from "lucide-react";
 
 export default function PrepMatPage() {
@@ -636,6 +634,17 @@ export default function PrepMatPage() {
                           <div className="flex items-center justify-end gap-1.5">
                             {item.url && (
                               <>
+                                <button
+                                  onClick={() => handleCopyLink(item)}
+                                  className="btn btn-ghost btn-xs rounded-lg text-base-content/60 hover:text-base-content"
+                                  title="Copy document URL"
+                                >
+                                  {isCopied ? (
+                                    <Check className="h-3.5 w-3.5 text-success" />
+                                  ) : (
+                                    <Copy className="h-3.5 w-3.5" />
+                                  )}
+                                </button>
                                 <a
                                   href={item.url}
                                   target="_blank"
@@ -801,6 +810,17 @@ export default function PrepMatPage() {
                           <span className="truncate">{item.title}</span>
                         </a>
                         <div className="flex items-center gap-1.5 shrink-0">
+                          <button
+                            onClick={() => handleCopyLink(item)}
+                            className="btn btn-ghost btn-xs p-1 text-base-content/60"
+                            title="Copy Link"
+                          >
+                            {isCopied ? (
+                              <Check className="h-3.5 w-3.5 text-success" />
+                            ) : (
+                              <Copy className="h-3.5 w-3.5" />
+                            )}
+                          </button>
                           <a
                             href={item.url}
                             target="_blank"
