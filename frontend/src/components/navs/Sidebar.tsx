@@ -20,12 +20,12 @@ import {
   HelpCircle,
   LucideIcon,
   User,
+  BookMarked,
   UserCircle2,
   InboxIcon,
   LogOut,
   ChartNoAxesCombined,
   X,
-  Calendar,
 } from "lucide-react";
 import { VscFeedback } from "react-icons/vsc";
 import { SIDEBAR_SECTIONS } from "@/lib/constants";
@@ -264,25 +264,25 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
           <div className="space-y-1 border-t border-base-200 pt-2">
               <h3 className="px-3 text-[10px] font-bold tracking-wider text-base-content/40 uppercase">
-                Tools
+                Quick Links
               </h3>
               <div className="space-y-0.5">
                 <Link
-                  href="/calender"
+                  href="/prepmat"
                   onClick={() => {
                     if (window.innerWidth < 1024) onClose();
                   }}
-                  className={navRowClass(pathname === "/calender")}
+                  className={navRowClass(pathname === "/prepmat")}
                 >
-                  <NavIndicator isActive={pathname === "/calender"} />
-                  <Calendar
+                  <NavIndicator isActive={pathname === "/prepmat"} />
+                  <BookMarked
                     className={`h-5 w-5 shrink-0 transition-all duration-200 ease-out ${
-                      pathname === "/calender"
+                      pathname === "/prepmat"
                         ? "text-primary"
                         : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
                     }`}
                   />
-                  <span className="truncate">Academic Calender</span>
+                  <span className="truncate">PrepMat</span>
                 </Link>
                 <Link
                   href="/interviews"
@@ -299,7 +299,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                         : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
                     }`}
                   />
-                  <span className="truncate">Interviews</span>
+                  <span className="truncate">Posts</span>
                 </Link>
                 <Link
                   href="/competitions"

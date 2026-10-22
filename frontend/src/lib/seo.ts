@@ -5,8 +5,10 @@ export const BASE_URL = "https://meta.metis-iitgn.tech";
 export const DEFAULT_SEO = {
   siteName: "META IITGN",
   titleTemplate: "%s | META IITGN | Academic Resources, PYQs & Student Wiki",
-  defaultTitle: "META IITGN | IIT Gandhinagar Academic Resources, PYQs & Student Wiki",
-  defaultDescription: "META IITGN is the collaborative campus platform for IIT Gandhinagar. Access PYQs, exam papers, academic calendar, campus news, student blogs, clubs, events, and campus wiki.",
+  defaultTitle:
+    "META IITGN | IIT Gandhinagar Academic Resources, PYQs & Student Wiki",
+  defaultDescription:
+    "META IITGN is the collaborative campus platform for IIT Gandhinagar. Access PYQs, exam papers, prepmat,interviews, campus news, student blogs, clubs, events, and campus wiki.",
   defaultKeywords: [
     "META IITGN",
     "IIT Gandhinagar",
@@ -16,13 +18,13 @@ export const DEFAULT_SEO = {
     "Student Resources",
     "Campus Wiki",
     "Campus News",
-    "Academic Calendar",
+    "Prepmat",
     "Clubs",
     "Events",
     "Blogs",
     "Engineering Resources",
     "Past Year Papers",
-    "IITGN Exam Papers"
+    "IITGN Exam Papers",
   ],
   author: "IITGN Student Community",
   creator: "META IITGN Developers",
@@ -41,12 +43,14 @@ export function getSeoMetadata(options: {
   imageAlt?: string;
   noIndex?: boolean;
 }): Metadata {
-  const title = options.title ? `${options.title} | ${DEFAULT_SEO.siteName}` : DEFAULT_SEO.defaultTitle;
-  const description = options.description 
+  const title = options.title
+    ? `${options.title} | ${DEFAULT_SEO.siteName}`
+    : DEFAULT_SEO.defaultTitle;
+  const description = options.description
     ? options.description.slice(0, 160) // Keep under 160 characters
     : DEFAULT_SEO.defaultDescription;
-  
-  const keywords = options.keywords 
+
+  const keywords = options.keywords
     ? [...new Set([...options.keywords, ...DEFAULT_SEO.defaultKeywords])]
     : DEFAULT_SEO.defaultKeywords;
 
@@ -55,7 +59,12 @@ export function getSeoMetadata(options: {
   const alt = options.imageAlt || "META IITGN Hub";
 
   return {
-    title: options.title ? { absolute: `${options.title} | ${DEFAULT_SEO.siteName}` } : { default: DEFAULT_SEO.defaultTitle, template: DEFAULT_SEO.titleTemplate },
+    title: options.title
+      ? { absolute: `${options.title} | ${DEFAULT_SEO.siteName}` }
+      : {
+          default: DEFAULT_SEO.defaultTitle,
+          template: DEFAULT_SEO.titleTemplate,
+        },
     description,
     keywords,
     authors: [{ name: DEFAULT_SEO.author }],
@@ -68,9 +77,15 @@ export function getSeoMetadata(options: {
     verification: {
       google: "google-site-verification-placeholder",
     },
-    robots: options.noIndex 
+    robots: options.noIndex
       ? { index: false, follow: true }
-      : { index: true, follow: true, "max-image-preview": "large", "max-video-preview": -1, "max-snippet": -1 },
+      : {
+          index: true,
+          follow: true,
+          "max-image-preview": "large",
+          "max-video-preview": -1,
+          "max-snippet": -1,
+        },
     openGraph: {
       title,
       description,
@@ -104,14 +119,15 @@ export function getOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "META IITGN",
-    "url": BASE_URL,
-    "logo": `${BASE_URL}/icon-512.png`,
-    "description": "Collaborative educational and student resource platform at IIT Gandhinagar.",
-    "sameAs": [
+    name: "META IITGN",
+    url: BASE_URL,
+    logo: `${BASE_URL}/icon-512.png`,
+    description:
+      "Collaborative educational and student resource platform at IIT Gandhinagar.",
+    sameAs: [
       "https://github.com/himanshuraj-demon/meta-iitgn",
-      "https://iitgn.ac.in"
-    ]
+      "https://iitgn.ac.in",
+    ],
   };
 }
 
@@ -122,16 +138,16 @@ export function getWebSiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "META IITGN",
-    "url": BASE_URL,
-    "potentialAction": {
+    name: "META IITGN",
+    url: BASE_URL,
+    potentialAction: {
       "@type": "SearchAction",
-      "target": {
+      target: {
         "@type": "EntryPoint",
-        "urlTemplate": `${BASE_URL}/search-results?query={search_term_string}`
+        urlTemplate: `${BASE_URL}/search-results?query={search_term_string}`,
       },
-      "query-input": "required name=search_term_string"
-    }
+      "query-input": "required name=search_term_string",
+    },
   };
 }
 
@@ -142,11 +158,11 @@ export function getBreadcrumbSchema(items: { name: string; item: string }[]) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": items.map((itm, index) => ({
+    itemListElement: items.map((itm, index) => ({
       "@type": "ListItem",
-      "position": index + 1,
-      "name": itm.name,
-      "item": `${BASE_URL}${itm.item}`,
+      position: index + 1,
+      name: itm.name,
+      item: `${BASE_URL}${itm.item}`,
     })),
   };
 }

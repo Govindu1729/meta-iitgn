@@ -13,6 +13,7 @@
 # testing
 /coverage
 
+/public/prepmat
 # next.js
 /.next/
 /out/
