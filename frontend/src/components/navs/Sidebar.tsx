@@ -26,10 +26,16 @@ import {
   LogOut,
   ChartNoAxesCombined,
   X,
+  Sun,
+  Moon,
+  Bell,
+  Settings,
 } from "lucide-react";
 import { VscFeedback } from "react-icons/vsc";
 import { SIDEBAR_SECTIONS } from "@/lib/constants";
 import { CategoryIcon } from "@/lib/categoryIcon";
+
+import Image from "next/image";
 
 // Local map for statically imported icons to avoid wildcard imports
 const ICON_MAP: Record<string, LucideIcon> = {
@@ -54,6 +60,7 @@ interface SidebarProps {
   onClose: () => void;
   currentTier?: string;
   onChangeTier?: (tier: string) => void;
+  persistentDesktop?: boolean;
 }
 
 // Shared row styling so every nav item (sections, categories, tools, account)
@@ -90,11 +97,23 @@ const NavIndicator = ({
   />
 );
 
-export default function Sidebar({ isOpen, onClose }: SidebarProps) {
+export default function Sidebar({
+  isOpen,
+  onClose,
+  persistentDesktop = false,
+}: SidebarProps) {
   const pathname = usePathname();
-  const { user, categories } = useAuth();
-  const { setActiveOverlay, setActivePortalCategory, setPortalMaximized, activeOverlay, activePortalCategory } = useHomeStore();
+  const { user, categories, setSettingsTab } = useAuth();
+  const {
+    setActiveOverlay,
+    setActivePortalCategory,
+    setPortalMaximized,
+    activeOverlay,
+    activePortalCategory,
+  } = useHomeStore();
   const [showAllCategories, setShowAllCategories] = useState(false);
+
+
 
   // Only show root-level categories (those without a parent) on the sidebar.
   // Filters out duplicate categories by slug to prevent double rendering.
@@ -121,39 +140,79 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
 
   return (
     <>
-      {/* Backdrop overlay - visible when sidebar is open */}
+      {/* Backdrop overlay - visible when sidebar is open on mobile */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-base-content/30 z-40 transition-opacity duration-300 animate-in fade-in"
+          className={`fixed inset-0 bg-base-content/30 z-40 transition-opacity duration-300 animate-in fade-in ${
+            persistentDesktop ? "lg:hidden" : ""
+          }`}
           onClick={onClose}
         />
       )}
 
       {/* Sidebar Container */}
       <aside
-        className={`fixed inset-y-0 left-0 z-50 flex flex-col h-full bg-base-100 border-r border-base-200 transition-all duration-300 ease-in-out shrink-0 select-none overflow-hidden ${
-          isOpen
-            ? "w-70 lg:w-80 translate-x-0 shadow-2xl"
-            : "w-0 -translate-x-full lg:border-r-0"
+        className={`fixed inset-y-0 left-0 z-40 flex flex-col h-full bg-base-100 border-r border-base-200 transition-all duration-300 ease-in-out shrink-0 select-none overflow-hidden ${
+          persistentDesktop
+            ? isOpen
+              ? "w-72 lg:w-72 xl:w-80 translate-x-0 shadow-2xl lg:shadow-none"
+              : "w-72 -translate-x-full lg:translate-x-0 lg:w-72 xl:w-80"
+            : isOpen
+              ? "w-70 lg:w-80 translate-x-0 shadow-2xl"
+              : "w-0 -translate-x-full lg:border-r-0"
         }`}
       >
-        {/* Sidebar Header with Brand Logo & Close Button */}
-        <div className="flex items-center justify-between px-5 border-b border-base-200 h-16 shrink-0 bg-base-100">
-          <div className="flex items-center gap-2.5">
-            <span className="font-serif text-2xl font-extrabold tracking-tight text-primary">
+        {/* Sidebar Header with Brand Logo, Controls & Close Button */}
+        <div className="flex items-center justify-between px-4 sm:px-5 border-b border-base-200 h-16 shrink-0 bg-base-100">
+          <Link href="/" className="flex items-center gap-2">
+            <span className="font-serif text-2xl font-extrabold tracking-tight text-blue-400">
               META
             </span>
-            <span className="ml-1 text-sm font-semibold uppercase tracking-wider text-base-content/70">
+            <span className="text-xs font-sans font-bold uppercase tracking-wider text-base-content/70">
               IITGN
             </span>
+            
+          </Link>
+
+          <div className="flex items-center gap-1">
+
+            <button
+              type="button"
+              onClick={() => {
+                setSettingsTab?.("appearance");
+                if (window.innerWidth < 1024) onClose();
+              }}
+              className="btn btn-ghost btn-circle btn-sm text-base-content/70 hover:text-base-content cursor-pointer"
+              title="Settings"
+              aria-label="Settings"
+            >
+              <Settings className="w-4 h-4" />
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                setActiveOverlay("news");
+                if (window.innerWidth < 1024) onClose();
+              }}
+              className="btn btn-ghost btn-circle btn-sm text-base-content/70 hover:text-base-content relative cursor-pointer"
+              title="Campus News & Notices"
+              aria-label="Campus News"
+            >
+              <Bell className="w-4 h-4" />
+              <span className="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-rose-500 animate-pulse" />
+            </button>
+
+            <button
+              onClick={onClose}
+              className={`btn btn-ghost btn-square btn-sm text-base-content/50 hover:text-base-content/80 hover:rotate-90 transition-all duration-300 cursor-pointer ${
+                persistentDesktop ? "lg:hidden" : ""
+              }`}
+              aria-label="Close sidebar"
+            >
+              <X className="w-5 h-5" />
+            </button>
           </div>
-          <button
-            onClick={onClose}
-            className="btn btn-ghost btn-square btn-sm text-base-content/50 hover:text-base-content/80 hover:rotate-90 transition-all duration-300 cursor-pointer"
-            aria-label="Close sidebar"
-          >
-            <X className="w-5 h-5" />
-          </button>
         </div>
 
         {/* Navigation list area */}
@@ -203,41 +262,39 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                 {(showAllCategories
                   ? rootCategories
                   : rootCategories.slice(0, 4)
-                ).map(
-                  (category) => {
-                    const isActive =
-                      activeOverlay === "portal" && activePortalCategory === category.slug;
+                ).map((category) => {
+                  const isActive =
+                    activeOverlay === "portal" && activePortalCategory === category.slug;
 
-                    return (
-                      <button
-                        key={category.category_id}
-                        type="button"
-                        onClick={() => {
-                          // Open the category in the portal modal instead of
-                          // navigating to a (now-removed) category route. Mark it
-                          // to open maximized (Quick Portals don't set this).
-                          setActivePortalCategory(category.slug);
-                          setPortalMaximized(true);
-                          setActiveOverlay("portal");
-                          if (window.innerWidth < 1024) onClose();
-                        }}
-                        className={navRowClass(isActive)}
-                      >
-                        <NavIndicator isActive={isActive} />
-                        <CategoryIcon
-                          icon={category.icon}
-                          size={20}
-                          className={`shrink-0 transition-all duration-200 ease-out ${
-                            isActive
-                              ? "text-primary"
-                              : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
-                          }`}
-                        />
-                        <span className="truncate">{category.name}</span>
-                      </button>
-                    );
-                  }
-                )}
+                  return (
+                    <button
+                      key={category.category_id}
+                      type="button"
+                      onClick={() => {
+                        // Open the category in the portal modal instead of
+                        // navigating to a (now-removed) category route. Mark it
+                        // to open maximized (Quick Portals don't set this).
+                        setActivePortalCategory(category.slug);
+                        setPortalMaximized(true);
+                        setActiveOverlay("portal");
+                        if (window.innerWidth < 1024) onClose();
+                      }}
+                      className={navRowClass(isActive)}
+                    >
+                      <NavIndicator isActive={isActive} />
+                      <CategoryIcon
+                        icon={category.icon}
+                        size={20}
+                        className={`shrink-0 transition-all duration-200 ease-out ${
+                          isActive
+                            ? "text-primary"
+                            : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
+                        }`}
+                      />
+                      <span className="truncate">{category.name}</span>
+                    </button>
+                  );
+                })}
                 {rootCategories.length > 4 && (
                   <button
                     type="button"
@@ -263,63 +320,63 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           )}
 
           <div className="space-y-1 border-t border-base-200 pt-2">
-              <h3 className="px-3 text-[10px] font-bold tracking-wider text-base-content/40 uppercase">
-                Quick Links
-              </h3>
-              <div className="space-y-0.5">
-                <Link
-                  href="/prepmat"
-                  onClick={() => {
-                    if (window.innerWidth < 1024) onClose();
-                  }}
-                  className={navRowClass(pathname === "/prepmat")}
-                >
-                  <NavIndicator isActive={pathname === "/prepmat"} />
-                  <BookMarked
-                    className={`h-5 w-5 shrink-0 transition-all duration-200 ease-out ${
-                      pathname === "/prepmat"
-                        ? "text-primary"
-                        : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
-                    }`}
-                  />
-                  <span className="truncate">PrepMat</span>
-                </Link>
-                <Link
-                  href="/interviews"
-                  onClick={() => {
-                    if (window.innerWidth < 1024) onClose();
-                  }}
-                  className={navRowClass(pathname === "/interviews")}
-                >
-                  <NavIndicator isActive={pathname === "/interviews"} />
-                  <VscFeedback
-                    className={`h-5 w-5 shrink-0 transition-all duration-200 ease-out ${
-                      pathname === "/interviews"
-                        ? "text-primary"
-                        : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
-                    }`}
-                  />
-                  <span className="truncate">Posts</span>
-                </Link>
-                <Link
-                  href="/competitions"
-                  onClick={() => {
-                    if (window.innerWidth < 1024) onClose();
-                  }}
-                  className={navRowClass(pathname === "/competitions")}
-                >
-                  <NavIndicator isActive={pathname === "/competitions"} />
-                  <ChartNoAxesCombined
-                    className={`h-5 w-5 shrink-0 transition-all duration-200 ease-out ${
-                      pathname === "/competitions"
-                        ? "text-primary"
-                        : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
-                    }`}
-                  />
-                  <span className="truncate">Competitions</span>
-                </Link>
-              </div>
+            <h3 className="px-3 text-[10px] font-bold tracking-wider text-base-content/40 uppercase">
+              Quick Links
+            </h3>
+            <div className="space-y-0.5">
+              <Link
+                href="/prepmat"
+                onClick={() => {
+                  if (window.innerWidth < 1024) onClose();
+                }}
+                className={navRowClass(pathname === "/prepmat")}
+              >
+                <NavIndicator isActive={pathname === "/prepmat"} />
+                <BookMarked
+                  className={`h-5 w-5 shrink-0 transition-all duration-200 ease-out ${
+                    pathname === "/prepmat"
+                      ? "text-primary"
+                      : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
+                  }`}
+                />
+                <span className="truncate">PrepMat</span>
+              </Link>
+              <Link
+                href="/interviews"
+                onClick={() => {
+                  if (window.innerWidth < 1024) onClose();
+                }}
+                className={navRowClass(pathname === "/interviews")}
+              >
+                <NavIndicator isActive={pathname === "/interviews"} />
+                <VscFeedback
+                  className={`h-5 w-5 shrink-0 transition-all duration-200 ease-out ${
+                    pathname === "/interviews"
+                      ? "text-primary"
+                      : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
+                  }`}
+                />
+                <span className="truncate">Posts</span>
+              </Link>
+              <Link
+                href="/competitions"
+                onClick={() => {
+                  if (window.innerWidth < 1024) onClose();
+                }}
+                className={navRowClass(pathname === "/competitions")}
+              >
+                <NavIndicator isActive={pathname === "/competitions"} />
+                <ChartNoAxesCombined
+                  className={`h-5 w-5 shrink-0 transition-all duration-200 ease-out ${
+                    pathname === "/competitions"
+                      ? "text-primary"
+                      : "text-base-content/50 group-hover:text-base-content/80 group-hover:scale-110"
+                  }`}
+                />
+                <span className="truncate">Competitions</span>
+              </Link>
             </div>
+          </div>
 
           {/* Account/Profile Section */}
           {user ? (

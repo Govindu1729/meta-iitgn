@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   output: "standalone",
   experimental: {
     reactCompiler: true,
+    cpus: 1,
   },
   images: {
     remotePatterns: [

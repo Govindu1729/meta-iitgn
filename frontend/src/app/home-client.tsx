@@ -20,6 +20,7 @@ import HomeTab from "@/components/home/HomeTab";
 import SearchTab from "@/components/home/SearchTab";
 import BookmarksTab from "@/components/home/BookmarksTab";
 import ProfileTab from "@/components/home/ProfileTab";
+import HomePageNew from "@/components/home_new/HomePageNew";
 
 // Overlays
 import NewPagesOverlay from "@/components/overlays/NewPagesOverlay";
@@ -31,6 +32,7 @@ import HistoryOverlay from "@/components/overlays/HistoryOverlay";
 import FeaturedEditOverlay from "@/components/overlays/FeaturedEditOverlay";
 import PortalOverlay from "@/components/overlays/PortalOverlay";
 import CategoriesOverlay from "@/components/overlays/CategoriesOverlay";
+import EventsOverlay from "@/components/overlays/EventsOverlay";
 
 // Memoized Components to Prevent Unnecessary Renders
 const LeftPanelMemo = memo(LeftPanel);
@@ -76,6 +78,7 @@ export default function HomeClient() {
     activeOverlay,
     setActiveOverlay,
     activePortalCategory,
+    setActivePortalCategory,
 
     // Pagination states
     newPagesHasMore,
@@ -127,6 +130,8 @@ export default function HomeClient() {
 
   const [sidebarOpen, setSidebarOpen] = useState(false); // Collapsed by default
   const [searchQuery, setSearchQuery] = useState("");
+  const [useNewUi, setUseNewUi] = useState(true);
+  const [showEventsManager, setShowEventsManager] = useState(false);
   const router = useRouter();
 
   // Title reflects the active home tab; the "home" tab shows the bare site name.
@@ -344,124 +349,199 @@ export default function HomeClient() {
   const setShowAllHistory = useCallback((val: boolean) => setActiveOverlay(val ? "history" : null), [setActiveOverlay]);
   const setShowEditFeatured = useCallback((val: boolean) => setActiveOverlay(val ? "featured-edit" : null), [setActiveOverlay]);
 
+  const handleRandomPage = useCallback(() => {
+    try {
+      const candidates = [...(newPages || []), ...(updatedPages || [])].filter(Boolean);
+      if (candidates.length > 0) {
+        const randomItem = candidates[Math.floor(Math.random() * candidates.length)];
+        const cat = (randomItem.metadata as any)?.category || "campus";
+        router.push(`/wiki/${cat}/${randomItem.slug}`);
+        return;
+      }
+      if (popularPages && popularPages.length > 0) {
+        const randomPop = popularPages[Math.floor(Math.random() * popularPages.length)];
+        const cat = (randomPop.metadata as any)?.category || "campus";
+        router.push(`/wiki/${cat}/${randomPop.slug}`);
+        return;
+      }
+      router.push("/wiki/page/campuses-and-surroundings");
+    } catch {
+      router.push("/wiki/page/campuses-and-surroundings");
+    }
+  }, [newPages, updatedPages, popularPages, router]);
+
   if (authLoading || auth === null) return null;
 
   return (
-    <div className="flex flex-col min-h-screen lg:h-screen bg-base-100 overflow-y-auto lg:overflow-hidden font-sans">
-      {/* Main Container */}
-      <div className="flex flex-col lg:flex-row flex-1 relative overflow-visible lg:overflow-hidden w-full h-auto lg:h-full">
-        {/* Left panel & collapsible sidebar */}
-        <LeftPanelMemo
-          sidebarOpen={sidebarOpen}
-          setSidebarOpen={setSidebarOpen}
-          activeTier={activeTier}
-          setActiveTier={setActiveTier}
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-          handleSearchSubmit={handleSearchSubmit}
+    <>
+      {useNewUi ? (
+        <HomePageNew
           activeTab={activeTab}
           setActiveTab={setActiveTab}
+          pageCount={totalPagesCount}
+          newPages={newPages}
+          updatedPages={updatedPages}
+          pendingPages={pendingPages}
+          newsPages={newsPages}
+          popularPages={popularPages}
+          upcomingEvents={upcomingEvents}
+          getRelativeTime={getRelativeTime}
+          onOpenPortal={(slug) => {
+            setActivePortalCategory(slug);
+            setActiveOverlay("portal");
+          }}
+          onOpenAllCategories={() => setActiveOverlay("categories")}
+          onOpenNewPages={() => setActiveOverlay("new")}
+          onOpenUpdatedPages={() => setActiveOverlay("updated")}
+          onOpenPendingPages={() => setActiveOverlay("pending")}
+          onOpenEvents={() => setShowEventsManager(true)}
+          onOpenNews={() => setActiveOverlay("news")}
+          onRandomPage={handleRandomPage}
+          searchComponent={
+            <SearchTabMemo
+              searchTabQuery={searchTabQuery}
+              setSearchTabQuery={setSearchTabQuery}
+            />
+          }
+          bookmarksComponent={
+            <BookmarksTabMemo
+              bookmarks={bookmarks}
+              setBookmarks={setBookmarks}
+              removeBookmark={removeBookmark}
+              setActiveTab={setActiveTab}
+            />
+          }
+          profileComponent={<ProfileTabMemo />}
+          onToggleClassicUi={() => setUseNewUi(false)}
         />
+      ) : (
+        <div className="flex flex-col min-h-screen lg:h-screen bg-base-100 overflow-y-auto lg:overflow-hidden font-sans">
+          {/* Main Container */}
+          <div className="flex flex-col lg:flex-row flex-1 relative overflow-visible lg:overflow-hidden w-full h-auto lg:h-full">
+            {/* Left panel & collapsible sidebar */}
+            <LeftPanelMemo
+              sidebarOpen={sidebarOpen}
+              setSidebarOpen={setSidebarOpen}
+              activeTier={activeTier}
+              setActiveTier={setActiveTier}
+              searchQuery={searchQuery}
+              setSearchQuery={setSearchQuery}
+              handleSearchSubmit={handleSearchSubmit}
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+            />
 
-        {/* Split Screen Layout */}
-        <div className="flex-1 flex flex-col lg:flex-row h-auto lg:h-full w-full bg-base-100 relative min-w-full shrink-0 lg:min-w-0 lg:shrink transition-transform duration-300 ease-in-out">
-          {/* Right Panel: Scrollable Hero + Highlights Feed */}
-          <div
-            className="flex-1 h-auto lg:h-full overflow-y-visible lg:overflow-y-auto scroll-smooth relative"
-            id="right-scroll-panel"
-            onScroll={(e) => {
-              const threshold =
-                activeTab === "home" ? (window?.innerHeight || 700) - 80 : 50;
-              const scrolled = e.currentTarget.scrollTop > threshold;
-              if (scrolled !== isScrolled) {
-                setIsScrolled(scrolled);
-              }
-            }}
-          >
-            {/* Slim navigation bar for desktop only */}
-            <div className="hidden lg:flex sticky mx-auto w-fit top-3 z-30 items-center gap-1 transition-all duration-300 px-4 py-1.5 rounded-full select-none -mb-11 bg-base-200/80 backdrop-blur-xl border border-base-300 shadow-[0_8px_32px_0_rgba(0,0,0,0.06)]">
-              {homeTabs.map((tab) => {
-                const Icon = tab.icon;
-                const isActive = activeTab === tab.id;
-                const isProfile = tab.id === "profile";
+            {/* Split Screen Layout */}
+            <div className="flex-1 flex flex-col lg:flex-row h-auto lg:h-full w-full bg-base-100 relative min-w-full shrink-0 lg:min-w-0 lg:shrink transition-transform duration-300 ease-in-out">
+              {/* Right Panel: Scrollable Hero + Highlights Feed */}
+              <div
+                className="flex-1 h-auto lg:h-full overflow-y-visible lg:overflow-y-auto scroll-smooth relative"
+                id="right-scroll-panel"
+                onScroll={(e) => {
+                  const threshold =
+                    activeTab === "home" ? (window?.innerHeight || 700) - 80 : 50;
+                  const scrolled = e.currentTarget.scrollTop > threshold;
+                  if (scrolled !== isScrolled) {
+                    setIsScrolled(scrolled);
+                  }
+                }}
+              >
+                {/* Slim navigation bar for desktop only */}
+                <div className="hidden lg:flex sticky mx-auto w-fit top-3 z-30 items-center gap-1 transition-all duration-300 px-4 py-1.5 rounded-full select-none -mb-11 bg-base-200/80 backdrop-blur-xl border border-base-300 shadow-[0_8px_32px_0_rgba(0,0,0,0.06)]">
+                  {homeTabs.map((tab) => {
+                    const Icon = tab.icon;
+                    const isActive = activeTab === tab.id;
+                    const isProfile = tab.id === "profile";
 
-                const buttonStyle = isActive
-                  ? "bg-primary text-primary-content border border-transparent shadow-xs"
-                  : "text-base-content/70 hover:bg-base-300 hover:text-base-content";
+                    const buttonStyle = isActive
+                      ? "bg-primary text-primary-content border border-transparent shadow-xs"
+                      : "text-base-content/70 hover:bg-base-300 hover:text-base-content";
 
-                return (
-                  <button
-                    key={tab.id}
-                    onClick={tab.onClick}
-                    className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold transition-all duration-200 cursor-pointer ${buttonStyle}`}
-                  >
-                    <Icon className={isProfile ? "h-5 w-5" : "h-3.5 w-3.5"} />
-                    {tab.label}
-                  </button>
-                );
-              })}
+                    return (
+                      <button
+                        key={tab.id}
+                        onClick={tab.onClick}
+                        className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold transition-all duration-200 cursor-pointer ${buttonStyle}`}
+                      >
+                        <Icon className={isProfile ? "h-5 w-5" : "h-3.5 w-3.5"} />
+                        {tab.label}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {activeTab === "home" ? (
+                  <HomeTabMemo
+                    imageLoaded={imageLoaded}
+                    scrollToFeed={scrollToFeed}
+                    spawnHearts={spawnHearts}
+                    setShowAllNew={setShowAllNew}
+                    setShowAllUpdated={setShowAllUpdated}
+                    setShowAllPending={setShowAllPending}
+                    newPages={newPages}
+                    updatedPages={updatedPages}
+                    pendingPages={pendingPages}
+                    loading={loading}
+                    getRelativeTime={getRelativeTime}
+                    newsPages={newsPages}
+                    setShowAllNews={setShowAllNews}
+                    triviaPages={triviaPages}
+                    setShowAllTrivia={setShowAllTrivia}
+                    setActiveTriviaItem={setActiveTriviaItem}
+                    historyPages={historyPages}
+                    setShowAllHistory={setShowAllHistory}
+                    setActiveHistoryItem={setActiveHistoryItem}
+                    totalPagesCount={totalPagesCount}
+                    featuredPages={featuredPages}
+                    popularPages={popularPages}
+                    upcomingEvents={upcomingEvents}
+                    setShowEditFeatured={setShowEditFeatured}
+                  />
+                ) : activeTab === "search" ? (
+                  <SearchTabMemo
+                    searchTabQuery={searchTabQuery}
+                    setSearchTabQuery={setSearchTabQuery}
+                  />
+                ) : activeTab === "bookmarks" ? (
+                  <BookmarksTabMemo
+                    bookmarks={bookmarks}
+                    setBookmarks={setBookmarks}
+                    removeBookmark={removeBookmark}
+                    setActiveTab={setActiveTab}
+                  />
+                ) : activeTab === "profile" ? (
+                  <ProfileTabMemo />
+                ) : null}
+              </div>
             </div>
+            {/* Floating Bottom Navbar on Mobile/Tablet */}
+            {!sidebarOpen && (
+              <BottomNavbar
+                tabs={mobileTabs}
+                activeTab={activeTab}
+                hidden={mobileNavHidden}
+                mobileAction={{
+                  icon: Search,
+                  onClick: () => setActiveTab("search"),
+                  label: "Search",
+                  active: activeTab === "search",
+                }}
+                className="fixed lg:hidden bottom-6 left-1/2 transform -translate-x-1/2 lg:left-[calc(50vw+15rem)] z-9999"
+              />
+            )}
+          </div>
 
-            {activeTab === "home" ? (
-              <HomeTabMemo
-                imageLoaded={imageLoaded}
-                scrollToFeed={scrollToFeed}
-                spawnHearts={spawnHearts}
-                setShowAllNew={setShowAllNew}
-                setShowAllUpdated={setShowAllUpdated}
-                setShowAllPending={setShowAllPending}
-                newPages={newPages}
-                updatedPages={updatedPages}
-                pendingPages={pendingPages}
-                loading={loading}
-                getRelativeTime={getRelativeTime}
-                newsPages={newsPages}
-                setShowAllNews={setShowAllNews}
-                triviaPages={triviaPages}
-                setShowAllTrivia={setShowAllTrivia}
-                setActiveTriviaItem={setActiveTriviaItem}
-                historyPages={historyPages}
-                setShowAllHistory={setShowAllHistory}
-                setActiveHistoryItem={setActiveHistoryItem}
-                totalPagesCount={totalPagesCount}
-                featuredPages={featuredPages}
-                popularPages={popularPages}
-                upcomingEvents={upcomingEvents}
-                setShowEditFeatured={setShowEditFeatured}
-              />
-            ) : activeTab === "search" ? (
-              <SearchTabMemo
-                searchTabQuery={searchTabQuery}
-                setSearchTabQuery={setSearchTabQuery}
-              />
-            ) : activeTab === "bookmarks" ? (
-              <BookmarksTabMemo
-                bookmarks={bookmarks}
-                setBookmarks={setBookmarks}
-                removeBookmark={removeBookmark}
-                setActiveTab={setActiveTab}
-              />
-            ) : activeTab === "profile" ? (
-              <ProfileTabMemo />
-            ) : null}
+          {/* Button to switch back to New UI */}
+          <div className="fixed bottom-4 right-4 z-50">
+            <button
+              onClick={() => setUseNewUi(true)}
+              className="btn btn-xs rounded-full bg-primary text-white shadow-xl text-[11px]"
+            >
+              Switch to New UI
+            </button>
           </div>
         </div>
-        {/* Floating Bottom Navbar on Mobile/Tablet */}
-        {!sidebarOpen && (
-          <BottomNavbar
-            tabs={mobileTabs}
-            activeTab={activeTab}
-            hidden={mobileNavHidden}
-            mobileAction={{
-              icon: Search,
-              onClick: () => setActiveTab("search"),
-              label: "Search",
-              active: activeTab === "search",
-            }}
-            className="fixed lg:hidden bottom-6 left-1/2 transform -translate-x-1/2 lg:left-[calc(50vw+15rem)] z-9999"
-          />
-        )}
-      </div>
+      )}
 
       {/* Dynamic Overlays */}
       <Suspense fallback={null}>
@@ -553,7 +633,12 @@ export default function HomeClient() {
         isOpen={activeOverlay === "categories"}
         onClose={handleCloseOverlay}
       />
-    </div>
+
+      <EventsOverlay
+        isOpen={showEventsManager}
+        onClose={() => setShowEventsManager(false)}
+      />
+    </>
   );
 }
 
