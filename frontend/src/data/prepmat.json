@@ -1,0 +1,4390 @@
+[
+  {
+    "id": "master-sheet-link",
+    "year": "2026-27",
+    "type": "General Guidance",
+    "subType": "Master Spreadsheet",
+    "company": "PDC Career Development Services",
+    "title": "Official PDC PrepMat Master Spreadsheet (Google Drive)",
+    "description": "Direct live access to the all-year PDC preparation material workbook on Google Sheets",
+    "url": "https://docs.google.com/spreadsheets/d/1hYLePWpD1F1TyNg5cWxRAAZ4jaLvtYwkcHcAq3PTonk/preview",
+    "domain": "Career Cell"
+  },
+  {
+    "id": "2026-27-intern-5-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Skan AI",
+    "title": "SkanAI PrepMat Placement 2026",
+    "url": "https://docs.google.com/document/d/1uz_XFY6IAX-rp_OMbCk1jLxy7OVqf2TuKNIvfbM9lYM/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-5-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Tower Research Capital",
+    "title": "TRC Internship 2026-27 PrepMat",
+    "url": "https://docs.google.com/document/d/1tAmCBBL-oNUGeRgpdI7x-AewBhI9F4XWYIMX90Qt990/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-6-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "DevRev",
+    "title": "DevRev PrepMat Placement 2026",
+    "url": "https://docs.google.com/document/d/1EEtbBA3zeF7AbyfJ82jUIXsihQrLy6tmu7Z2JSq5xck/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-6-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Graviton Research Capital",
+    "title": "Graviton Internship 2026-27 PrepMat",
+    "url": "https://docs.google.com/document/d/1nZY2n_z42Ja7qOSloexdbhoCTnUmEmuwqBCzu0jGIT0/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-7-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "SRI - Bangalore",
+    "title": "SRI Internship 2026-27 PrepMat",
+    "url": "https://docs.google.com/document/d/1dRPrf_KBAgHWLZEqQ4eQ_R_dgfM5SBKaZjYXZr99hjE/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-7-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Zomato-Eternal (SDE)",
+    "title": "Zomato SDE PrepMat Internship 2026",
+    "url": "https://docs.google.com/document/d/1IQviZUZKA2JXP-Z8Q3K8AWjS28Fyqeekoje5TIMXsSk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-8-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Arista Networks",
+    "title": "Arista Networks PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1-YNtzKO8DylqNdiLaDmZQsbXZ-Tjpc_uRk1uKIofnJc/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-8-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Zomato-Eternal (PA)",
+    "title": "Zomato PA PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1cUMpCsXH1yVkcAnrEri0hXIQpJJDfk5EDnqgTOTbqBY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-9-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "InMobi",
+    "title": "InMobi PrepMat Internship 2026",
+    "url": "https://docs.google.com/document/d/18AU4Gug7WPHpTFcGxjOXQNeFqrE2p4TUhX25ZC0oouE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-9-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Suzuki R&D Center India Private Limited",
+    "title": "Suzuki R&D Center India Pvt Ltd Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1YI3yCNis6mSfN7si3oTU4QPE4v2ij58ZuLmKGVHiY7Q/edit?usp=sharing",
+    "domain": "Engineering Core"
+  },
+  {
+    "id": "2026-27-intern-10-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Barclays",
+    "title": "Barclays Internship 2026-27 PrepMat",
+    "url": "https://docs.google.com/document/d/1b4EMx-7CO3yIyy9rSweuKwOsVCe2E2_t1gd9oAoKdU4/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-10-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "HCLTech",
+    "title": "HCLTech PrepMat Placement 2026",
+    "url": "https://docs.google.com/document/d/10OC6DlfMYwlyCU5B_9UVqu9smg8NCSMAtIFL8pa9Thk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-11-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Texas Instruments (H/W)",
+    "title": "Texas Instruments HW prepmat",
+    "url": "https://docs.google.com/document/d/1vZCZ81mQPEjyY7jM9zxKVhwsQfunxQxzrd9uQxGHWVg/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2026-27-intern-11-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Bain Capability Network",
+    "title": "Bain Prepmat",
+    "url": "https://docs.google.com/document/u/0/d/1UiphG_KEmTjbF4G_UOndHh9L2_5HsGRAKy5QquRzwqE/edit",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2026-27-intern-12-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Texas Instruments (S/W)",
+    "title": "Texas Instruments S/W Internship Prepmat",
+    "url": "https://docs.google.com/document/d/1gP4hgYEHrVxVIwuf-UIiXr4Rr-9vL6rHwd607w58E_Q/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2026-27-intern-12-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Piramal Finance Ltd",
+    "title": "Piramal Finance Internship PrepMat 2026-27",
+    "url": "https://docs.google.com/document/d/1mWxomesiHevQrC7r2vtsNQKjDykPPDubzjA0S10q39o/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-13-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Monomer Research (Vardhman Global)",
+    "title": "Monomer Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1vb1HTo_ZqlblKuJOy27uow8bCRAYbj1ODt4WLSlb7fQ/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-13-10",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Lam Research",
+    "title": "Lam Research Internship PrepMat 2026-27",
+    "url": "https://docs.google.com/document/d/12D_-ymSlb-GxFZvMnNLPYSJR3k6MLs841VB9nQyRwsQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-14-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "NVIDIA (SW)",
+    "title": "Nvidia S/W Internship Prepmat",
+    "url": "https://docs.google.com/document/d/1KkzMnY-fGO4I6v62jjWg8Rnd8M_zcewJawS857MY2BE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-15-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "NVIDIA (HW)",
+    "title": "NVIDIA_HW_Prepmat",
+    "url": "https://docs.google.com/document/d/1kaLXaB2vWXle-VsteBApdk5s7kaCZsvfjY2b-4BxHOo/edit?usp=drivesdk",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2026-27-intern-16-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "SRID",
+    "title": "SRID Internship PrepMat 2026-27",
+    "url": "https://docs.google.com/document/d/1Hz0qJr9w9PqeJumNW6731zdvR7eukDrhzXnVIsaRT7o/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-17-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "VISA",
+    "title": "VISA Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1kS9bPHDPdlNENTW1GWxLbkbrgGcVLPVn2tcqT9h_Nv0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-18-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Microsoft",
+    "title": "Microsoft Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/17XmO89wC0VsrNDqmsF32qTFsAt2Qq59eofatR6tjs_Y/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-19-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Axxela Research & Analytics Pvt Ltd",
+    "title": "Axxela Prepmat - Internship 2026",
+    "url": "https://docs.google.com/document/d/1DfuOJ3yFiKXQNEfX55gYjwOuQxGAXHdnhi51dGQwQTg/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-20-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Accenture",
+    "title": "Accenture Internship Prepmat 2026",
+    "url": "https://docs.google.com/document/d/1aq1ZtrmPvVt5fshXSEqYItqcrx3y45V77kHxnuEQFUM/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2026-27-intern-21-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Qualcomm HW",
+    "title": "Qualcomm HW - Internship PrepMat 2026-27",
+    "url": "https://docs.google.com/document/d/1N6JURYEG-4lSmpV_z_XVVIgMClQMxpKnEyLK87pQRfs/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2026-27-intern-22-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Qualcomm SW",
+    "title": "Qualcomm SW- Internship PrepMat 2026-27",
+    "url": "https://docs.google.com/document/d/1Jbq0yVprfArtW38J8S4pqQC0k9o7J5tPhTUbSwiXFaQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-23-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Trading Tech",
+    "title": "Trading Tech PrepMat Placement 2026",
+    "url": "https://docs.google.com/document/d/1h1elLXNlwy44A_oyZFmbZxNHji9Xp5XV16HoLQXvVfI/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-24-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Emertxe Information Technologies",
+    "title": "Emertxe Information Technologies Internship Prepmat 2026-27",
+    "url": "https://docs.google.com/document/d/1cBWPfAHDr6qOerqtJMZrFtXuhZVuoPXnZqqVMCyyaLg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-26-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "JP Morgan",
+    "title": "JP MORGAN PrepMat 2026",
+    "url": "https://docs.google.com/document/d/16RerhGam3twU_S3f5y7X5sA4vK82RCSDEqsNliWYWfs/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2026-27-intern-27-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Google",
+    "title": "Google Summer Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1TyQGtbKe3XFqBKO2BWVDpWCbz0lDA9pxyylPpBYUJWw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-28-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Skan AI",
+    "title": "SkanAI off campus Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1Nfj2RPFdIL-bAHZTcIcGnDkANUipQbSQF8MwgBl07QQ/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2026-27-intern-30-4",
+    "year": "2026-27",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Wish",
+    "title": "Wish Program PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1QOblIIX8rCwv8wX9GBVs4-oY6AxL6R3YVpJJXdGFo5I/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-3-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "D.E. Shaw India",
+    "title": "D.E. Shaw India Internship Prepmat 2025",
+    "url": "https://docs.google.com/document/d/1-rNuiy1cjYCMheoW12tjPuGwU9CLdk3sbMDQE_BSiJ8/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-3-10",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Tower Research Capital",
+    "title": "Tower Research Capital PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1OKYCVleGzyCva_AXGP-NfLqIRn5Wf77SxcZUUWyQihA/edit?usp=drivesdk",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-4-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Google",
+    "title": "Google PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1zb2o280gtL4fA6n8lCYjgHTpwZEPV__IXwyf14DLsTY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-4-10",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Graviton Research Capital",
+    "title": "Graviton Research Capital Internship Prepmat 2025",
+    "url": "https://docs.google.com/document/d/1eV4M4jn5FNREGtVdjBfviXLoRif6HsABmlAtbhOa9_w/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-5-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "DevRev",
+    "title": "DevRev PrepMat Placement 2024",
+    "url": "https://docs.google.com/document/d/1mZCl8uIvvW__f1XQ1Wez6XgNd9VF71qWGc_sYw3KOTU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-6-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "SkanAi",
+    "title": "SkanAi PrepMat Placement 2024",
+    "url": "https://docs.google.com/document/d/1HQSFprLO_QIrVjH-6VCe2Ir0wwSgs5nub9kKOZFk5ZQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-7-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "ITC",
+    "title": "ITC PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1fWbS-xQP926kYVVcGaqpZlnyuqeAv05lpSvnDCCXQ1c/edit?usp=sharing",
+    "domain": "Engineering Core"
+  },
+  {
+    "id": "2025-26-intern-8-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Barclays",
+    "title": "Barclays PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1pO_DbhPnmbtDzkM6GQF_Wpz0s_nZkZHKP-t4Awz6N7Y/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-9-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Goldman Sachs",
+    "title": "Goldman Sachs PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/143QpVKdCnbLI6c6W3yoLaFP8cMxfIC7LVKbZRJJhin8/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-10-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "NVIDIA (H/W S/W role)",
+    "title": "NVIDIA PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1Z47YTZ2Q4_abZmeNG5JR3rZQCJb3m9rrNl7pTGWXbac/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-11-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Texas Instruments (H/W S/W Role)",
+    "title": "Texas Internship PrepMat 2025",
+    "url": "https://docs.google.com/document/d/1v0DZb3ibfYJpx9goEqtdtaeKP5PYMm4kQFgeDVb7OM8/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-intern-12-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Media.Net",
+    "title": "Media.Net PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1U6b5nI9tf3kvfhjr9K3OjfjX4WaR_bvknLYptt82SHo/edit?tab=t.0",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-13-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Axxela Research & Analytics Pvt Ltd",
+    "title": "Axxela Research & Analytics Pvt Ltd PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1V5ANI24zuxXKicYSAdttpBKJ4-7zshWyiiMeFuy-1qM/edit?tab=t.0",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-14-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Qualcomm SW",
+    "title": "Qualcomm Intern PrepMat 2025",
+    "url": "https://docs.google.com/document/d/1bNwyJwoZ8CDNbeYj4tKmAqQHV_sKmcCF2QeP3Lsxqs4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-15-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Razorpay",
+    "title": "Razorpay Intern Prepmat 2025",
+    "url": "https://docs.google.com/document/d/1SqxnYw4PkdnADgQuvFWIfp53bRpQOnubtOMmN6yV2h4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-16-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "VISA",
+    "title": "VISA PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/194bZR15QmI0-QbZSfCmc_m1EvJ8Oljm4ff5Gu-AMIbw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-17-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "JSW Steel Limited",
+    "title": "JSW PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1v7Tl3ucrRhJ0sifED-OZKnRkExPVHwbHpdVv06vDjRE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-18-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Axis Bank (BIU & BSG)",
+    "title": "Axis Bank (BIU & BSG) Internship PrepMat 2024",
+    "url": "https://docs.google.com/document/d/10qsvdTU_QUjQ_ZWjJr7sIvJCGo28MVQ7ccMU98SGlkk/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-19-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Future First",
+    "title": "Future First Internship Prepmat 2025",
+    "url": "https://docs.google.com/document/d/1kePXz2alZ20AD_oPKQd7FgeSya2sGFBMpp-Uul7-4rk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-20-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Samsung Research and Development Institute India Delhi",
+    "title": "Samsung Research and Development Institute India Delhi PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1r5mNE90ygPDNmPzIu29tj7nZO4XaFqtkHgf4qdg-9G0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-21-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "ICICI BANK LTD",
+    "title": "ICICI BANK LTD PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1_0NxpAithPLn8RT2w3p5WYTpvpIgWpOWVBVhbLQcdGY/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-22-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Citi Bank",
+    "title": "Citi Bank Internship PrepMat 2024",
+    "url": "https://docs.google.com/document/d/1wiF7DSLOSpwhPMnLzAkWPcY8Epl5_NL8lL4it27-Cyc/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-intern-23-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Samsung Research Institute, Noida",
+    "title": "Samsung Research Institute, Noida PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1Jw4R2IB_UjZ-vecyTrh5CI5KJ977XmG18tGDKMHUKh4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-24-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Quanfia",
+    "title": "Quanfia_Intern_PrepMat_2025",
+    "url": "https://docs.google.com/document/d/11OX1v6qZNn8FHn_3JPkzzwY0ccEZz-Ekvwc3gs08BVg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-25-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Axis Bank (BSG)",
+    "title": "Axis Bank (BSG) Internship PrepMat 2025",
+    "url": "https://docs.google.com/document/d/17GR6E8kbLVsUESObcQJ4JZSfgNjMKV1R9bZpDBX2-RU/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-intern-27-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Accenture India Pvt Ltd.",
+    "title": "Accenture India Pvt Ltd. PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1CuvAyQCqQ2lnSt61qdw4RFDIFOR9RwIB_teu0w7J3So/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2025-26-intern-28-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Godrej Properties",
+    "title": "Godrej Properties_Intern_PrepMat_2025",
+    "url": "https://docs.google.com/document/d/15SHeKaxREbnBWWFeJkYBiM2zr8zMjg2ck4YVHl4rzUQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-29-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "PUMA Sports India Pvt Ltd",
+    "title": "PUMA Sports India Pvt Ltd Internship PrepMat 2025",
+    "url": "https://docs.google.com/document/d/1ranmZSyPkpE82WVziUjQLAIv3tJ8N5xEUUa4-n7U5LE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-30-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Inmobi",
+    "title": "InMobi_Intern_PrepMat_2025",
+    "url": "https://docs.google.com/document/d/1iWDNBssu15YDDADi7wPvT_UnPFmoC6sbkdDczDa8lP0/edit?usp=drivesdk",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-32-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Trade Desk",
+    "title": "Trade Desk India Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1q3igyGbHn3pzrXTDmY3Q0FbGFUj0wnVI1ZElKhFFJ8w/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-33-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Tangerine Skies",
+    "title": "Tangerine Skies Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1LDZJb-2uAB33zcKz-w4_OCaRjjuTJcyN4jHDLNWuEcM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-34-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Qualcomm HW",
+    "title": "Qualcomm HW Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1Bsf0Y7SNnSm_gXz9kAKbMg5A3BZRt7Sl7LfZyPsr7fI/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-intern-35-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "MPL",
+    "title": "MPL Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1pj6vSVuSlivOvjHSPuZ59edUdlggiqtycqF_N6XEXo0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-36-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "PUMA",
+    "title": "PUMA Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1uj0d4Y8Zggbj7H5FrChvhO0ngLZS5YRNWq-QSzZXtQs/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-37-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Cisco",
+    "title": "Cisco PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1RgliZC4KrKfAJ5sSsMC3GNBu_70OJx3B-iheJzg6O8c/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-38-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Adobe",
+    "title": "Adobe Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1XylSM1yfLamhIKkjBJt_EwXuD0g14-TYN01p3iECj0Q/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-39-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Stripe",
+    "title": "Stripe Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1ZNb4ZHG4YJrtJ3vQTXjkgyb1bs-2tPAVjHnOVC08Ua8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-40-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Amazon",
+    "title": "Amazon Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1lR5OCNS0KXN6l4JXqcBgXOppBAmaRyLr4yWJ4jVg5yc/edit?usp=sharing%5C",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-intern-41-4",
+    "year": "2025-26",
+    "type": "Internship",
+    "subType": "Off Campus Internship",
+    "company": "Technip",
+    "title": "Technip Internship PrepMat 2026",
+    "url": "https://docs.google.com/document/d/1Mp_9i8YUfCgmEEuyBDs6WGr_gcJbnAixF-npdWwYfcg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-3-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "MathWorks India Private Limited",
+    "title": "Mathworks Placement 25-26 PrepMat",
+    "url": "https://docs.google.com/document/d/1GjnroLxDjRttSMXT2TMfMqmEKqJcYqvTukmjan2J9EA/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-placement-4-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Eternal (Zomato) - SDE",
+    "title": "Eternal (Zomato) SDE PrepMat",
+    "url": "https://docs.google.com/document/d/1oMv1EHO-bqsA5JFZSUw6Zf7Go-aITs05Ucsu67t9nrU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-5-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Eternal (Zomato) - PA",
+    "title": "Eternal (Zomato) PA PrepMat",
+    "url": "https://docs.google.com/document/d/1KNUW3FaJw_DoyTiRiu-e9VI34p3accnHSiI1Oxj0N_A/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-6-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Barclays",
+    "title": "Barclays Placement 25-26 PrepMat",
+    "url": "https://docs.google.com/document/d/1BFTlv3id7zy6rHpyUCFAWUITDAO46fOB6WFTaGxxXLg/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-placement-7-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "InMobi Technologies Pvt Ltd",
+    "title": "InMobi Technologies Pvt Ltd Placement 25-26 PrepMat",
+    "url": "https://docs.google.com/document/d/1ttwroqgZ6rf4uI7uVEvWLO34FJl7St1nU3-nHXOqi7c/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-8-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Texas Instruments",
+    "title": "Texas Instruments Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1MqlbOmHfWThS0HuHQE5vknfFV9pe8p1_eHwgBP3sxsc/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-placement-9-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "VISA",
+    "title": "VISA Placement 25-26 PrepMat",
+    "url": "https://docs.google.com/document/d/1plzxhdfwnqMREZ1CPlJgIDJXdzdTgbE2CDFFFwedxD0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-10-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Airamatrix Private Limited",
+    "title": "Airamatrix Private Limited Placement 2025-26 Prepmat",
+    "url": "https://docs.google.com/document/d/1PzftEa9ZUr3X-DiYIwKw_Z4w9CNtEpFAwUeyoUTlqUI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-11-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "SEDEMAC Mechatronics",
+    "title": "SEDEMAC Mechatronics Placement 25-26 PrepMat",
+    "url": "https://docs.google.com/document/d/1mgInHnx9BL_1bsawsY6goMZPFEzzvlJES1XmajTydv0/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-placement-12-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "IXANA",
+    "title": "IXANA Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1U40y61WhJSunZVukqmz9d8xsMQsLI4lkeiyTW7GXyDw/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-placement-13-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "ICICI BANK LTD",
+    "title": "ICICI Bank Ltd PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/11LSRqckZCIPvdfwGiFVORQXh2E8ZnCe3n6kckZykfZw/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2025-26-placement-14-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "EXXAT Systems Pvt. Ltd.",
+    "title": "EXXAT Systems Pvt. Ltd.",
+    "url": "https://docs.google.com/document/d/1i1qu42AW4e4asGgUEFFf7dwSxBlUh2q0edicPoGYeOM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-15-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Arista Networks",
+    "title": "Arista Networks PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/1iksaF8Ji9eAOSGB0snOw9sKz4u_Lg-BkfrCsq1a_VpU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-16-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "ARM",
+    "title": "ARM PrepMat Placement 2025-26",
+    "url": "https://docs.google.com/document/d/1oQeEWiyLjraJviIdDn80Jf9gLZYM46zBcpKZBqy4ZQg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-17-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Samsung Research Institute - Noida",
+    "title": "Samsung Research Institute - Noida PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/1srGjqXBOSw5dEMvz-E--oGsO4xfYfkZJmclikyIqrxY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-18-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Searce Inc",
+    "title": "Searce Placement 25-26 PrepMat",
+    "url": "https://docs.google.com/document/d/1loEkV6cmAjvx02-EbXQWOHgSD4o2jYMdy-I0oN4KuTQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-19-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Global Foundries",
+    "title": "Copy of Global Foundries Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1tVoUAKzbHbBH6bNtNU1tTynJdeA2XkXaFnOo4s9gHxI/edit?usp=drivesdk",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-20-3",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "BPCL",
+    "title": "BPCL",
+    "url": "https://docs.google.com/document/d/1jJ8AqkbbAnvdJFr6mjrx9JgBIO2mOQ6qRjWRyQi-pAc/edit?tab=t.0",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-20-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "BPCL",
+    "title": "BPCL PrepMat",
+    "url": "https://docs.google.com/document/d/1jJ8AqkbbAnvdJFr6mjrx9JgBIO2mOQ6qRjWRyQi-pAc/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-21-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Centre for Development of Telematics (C-DoT)",
+    "title": "Centre for Development of Telematics (C-DoT) PrepMat Placement 2025-26",
+    "url": "https://docs.google.com/document/d/1OLeeZLBy0VE6rmn72TWKwsGKd0TgQoVzwLKGkCdexeA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-22-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "ZS Associates",
+    "title": "ZS Associates",
+    "url": "https://docs.google.com/document/d/1qr7s7459PNzJeSq7gm1b2tk370FA_kABoL1nflSXqwQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-23-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Thornton Tomasetti",
+    "title": "Thornton Tomasetti PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/1RwvjlvDgxsBT7U9XZ87kOMPYNUlRVB81pfz_QvPPaAU/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-placement-24-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "SmartSense Consulting Solutions Pvt. Ltd",
+    "title": "SmartSense Placement 25-26 PrepMat",
+    "url": "https://docs.google.com/document/d/1Nxnvsk0e925RsWbWMYr_GY--Bt6Tr0d8wu4j9wj586U/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2025-26-placement-25-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "NVIDIA",
+    "title": "NVIDIA PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/1ACLt6Y59sq2ACHYc7or_0mf5eDgfsiU8PPGQZ4Sj6hc/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-26-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "SAMSUNG Research Institute - Bangalore",
+    "title": "SRI Bangalore PrepMat Placement 2025-26",
+    "url": "https://docs.google.com/document/d/10whb6ieBsQUHe9bO1HpngSZfzQZQmm3dhJWYa7DP4cw/edit?usp=drivesdk",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-27-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "HPCL",
+    "title": "HPCL PrepMat Placement 2025-26",
+    "url": "https://docs.google.com/document/d/1Mo_LLQu9FTUfYMYKuQHWOALeF9YZiSSrVaU0Wd7cOeM/edit?usp=drivesdk",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-28-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "AspectRatio Pvt. Ltd.",
+    "title": "AspectRatio Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1Drk2z28qLEouuQAjxirxbaeENaLRUxASPs6pDuFGE9I/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-29-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Qualcomm (SW)",
+    "title": "Qualcomm (SW) PrepMat Placement 2025-26",
+    "url": "https://docs.google.com/document/d/12VWZ5hl1WBTEnUiaxEmzutOcRI1mnAxfxF5Hf1qRn5I/edit?usp=drivesdk",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-30-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Bharat Electronics Limited (Bangalore)",
+    "title": "BEL Placement PrepMat",
+    "url": "https://docs.google.com/document/d/18foaxnWEohjFDenrXJKslh1s2A07EQ0-ZKSUhwO7i64/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2025-26-placement-31-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "UST",
+    "title": "UST Placement PrepMat",
+    "url": "https://docs.google.com/document/d/12cGpnve4Qm-SOX0lsYKStANAXzmvoHzgOh08n0uoPUI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-32-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Hitachi Energy",
+    "title": "Hitachi Energy Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1opsWwWnkEezYwxf6RFpygdn0xTIIpFMkVrQNMDhvyKE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-33-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Future First",
+    "title": "Futures First Info Services (Pvt) Limited Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1a75quzCKmZNRm-vLPJNdrS3y6BockuSVAUDDbYDR7bY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-placement-34-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Jay FineChem Pvt. Ltd.",
+    "title": "JAY FINECHEM PRIVATE LIMITED PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/1SHgYSZr4zIbW-0WWswds1asP2i6sf16KVHqc5FhNGws/edit?usp=sharing",
+    "domain": "Engineering Core"
+  },
+  {
+    "id": "2025-26-placement-35-4",
+    "year": "2025-26",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "HCLTech",
+    "title": "HCL Tech Prepmat",
+    "url": "https://docs.google.com/document/d/1k-FEXo0mDlaORh5PIfOnZgiljE_OSj88LHPtiIGwnkY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2025-26-research-2",
+    "year": "2025-26",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "CalTech",
+    "title": "RESEARCH PREPMAT 2026 - CalTech",
+    "description": "Domain: CSE,AI,MSE",
+    "url": "https://docs.google.com/document/d/1jMWLFlXkNzA6Xh_SnHsI9maJPPDDgFoH78ziGafesNc/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2025-26-research-3",
+    "year": "2025-26",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Buffalo",
+    "title": "RESEARCH PREPMAT 2026 - University at Buffalo",
+    "description": "Domain: CE,CL",
+    "url": "https://docs.google.com/document/d/1pk70mUrUoXqGDv_XwffqZcfGyiJ_NCpxPkXdey1fZZI/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2025-26-research-4",
+    "year": "2025-26",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "TAMU",
+    "title": "RESEARCH PREPMAT 2026 - TAMU",
+    "description": "Domain: CL,ME",
+    "url": "https://docs.google.com/document/d/1XgP9GB0d0zpTqzZBWoavaSMew4iCuPN03k9yeAvT7Kk/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2025-26-research-5",
+    "year": "2025-26",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Purdue",
+    "title": "RESEARCH PREPMAT 2026 - Purdue",
+    "description": "Domain: CL,EE,ME,AI,CSE",
+    "url": "https://docs.google.com/document/d/1jrYZgkBPZVf-MFFe4vswGq27u3hemI53TByM4c3nghw/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2025-26-research-6",
+    "year": "2025-26",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "NC State University",
+    "title": "RESEARCH PREPMAT 2026 - NC STATE UNIVERSITY",
+    "description": "Domain: ME",
+    "url": "https://docs.google.com/document/d/1Rl066FghPsl2-eoy9lGH9yG6FkES0WYGK2kReznU4cQ/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2025-26-research-8",
+    "year": "2025-26",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "NUS",
+    "title": "RESEARCH PREPMAT 2026 - NUS",
+    "description": "Domain: CL,ME",
+    "url": "https://docs.google.com/document/d/1eBJXJyjA45x7XOap8DPEjGgigQQKuITd52DRTgeRN48/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2025-26-research-9",
+    "year": "2025-26",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "University of Sydney",
+    "title": "RESEARCH PREPMAT 2026",
+    "description": "Domain: CSE",
+    "url": "https://docs.google.com/document/d/1H3If0cjF8hsoTuEiCLsG2IaW5ZWeiMgtr8O38L_Wk4c/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-intern-3-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "SkanAI",
+    "title": "SkanAI PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1Sy6T4F6orV4vxT1f1Bj07PgxYqNX5qJ1RFPCbO2NabI/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-3-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Tower Research Capital",
+    "title": "Tower Research Capital PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1JyeoYyLaeCk1NbgBnwUV5QvxOCGtb3fx9g8SOjhX9G4/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2024-25-intern-4-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Google",
+    "title": "Google PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/10maitGH5uKJfZHEmU65QO7syCcgJawSh9yDzuCmPLCw/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-4-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "LaunchEd Global",
+    "title": "LaunchEd Global PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/10LTYQ4hE4n1WeOcp9S56t4E3u3BebWYpwFj9s7Fdow4/edit?tab=t.0#heading=h.z7ha11tmtqcb",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-5-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Atlassian",
+    "title": "Atlassian PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/11cApX0wesn96ks7O1PGOIsDa-qnmLzq8ez7NoDIQ1nc/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-5-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "L& T Technology Services",
+    "title": "L& T Technology Services PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1sfLCulxJbi-Vgv4_UyBG5SZdBg84k9mFgonXBBMxZP8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-6-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "DevRev",
+    "title": "DevRev PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1qlr6KaM90rZuTSwLuXrSiaL1JbyZzyjKJ-bTHbjj7eg/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-6-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Sprih Innovations Pvt. Ltd.",
+    "title": "Sprih Innovations Pvt. Ltd. PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1HvmRvgsBgSuJdjKzkzlEehtVzK0C8D6pvw1mpGCcV7w/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-7-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Barclays",
+    "title": "Barclays PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1K5fYdbckEVD39Wh4t3cN1h1ASob94vjTAZ3cLVEpL2Y/edit?tab=t.0",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2024-25-intern-7-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Oracle India Private ltd",
+    "title": "Oracle India Private ltd PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/11r7cFLoCESb1BBtXyqnMUPriqbfUAIdRQvgeZ0OhMzw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-8-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Texas Instruments",
+    "title": "Texas Instruments PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1KLwSVyV2qlnQnDPZmpgWCl_T70sfK1YMfOxljeKZXyU/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2024-25-intern-8-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "TATA ADVANCED SYSTEMS LIMITED",
+    "title": "TATA ADVANCED SYSTEMS LIMITED PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1QJ1B0h9lLvIDz9UhKnqRbrqEeAU9_PUyAKRgKZVGS9E/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-9-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "NVIDIA Graphics Pvt. Ltd.",
+    "title": "NVIDIA Graphics PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1OdUCbrocgUBnO_DUlYWOjWT7P1A9xs3xv2EHYrafl98/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-9-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "HapiHygi Innovations Private Limited (ATSC)",
+    "title": "HapiHygi Innovations Private Limited (ATSC) PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1UU3oJ42FCOMqvV4hPIggiftCjTLxyPX5lWTnxGrmw-Q/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-10-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Microsoft",
+    "title": "Microsoft PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1zUFWp8aIAGI8fnhMjB9kDVQZg4YrLrh8W_XHk-fJoLk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-10-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Dishman Carbogen Amcis ltd",
+    "title": "Dishman Carbogen PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1vC8_HInD7pWxAIghye9vSQk6qj93XJNGyeDrhQvzORU/edit?tab=t.0",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-11-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Axxela Research & Analytics Pvt Ltd",
+    "title": "Axxela Research & Analytics PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1fuPeF-Z-znFkyziD-eMI7cU-F4bTpfteVAGdnNxbfCk/edit#heading=h.cab1qx43ozyr",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2024-25-intern-11-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "Solar Defence and Aerospace Limited",
+    "title": "Solar Defence and Aerospace Limited PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1OWOz9h8UpTdSG_eR9R6qou6MwMBrpTF0S4Kf69qDvgE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-12-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "PUMA Sports India Pvt Ltd",
+    "title": "PUMA Sports India PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1i7Xw2HVm8oNPnYA9wvQkqoUnQZaY9FUhPlhjPT820AA/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-12-7",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "6 Month Intern",
+    "company": "SmartSense Consultant Solutions Pvt. Ltd.",
+    "title": "SmartSense Consultant Solutions PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/19tf_fl0sQnpqwZ2otAGpbx5oQdbQAsgDi9imu58pupA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-13-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Samsung Research and Development Institute",
+    "title": "Samsung Research PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1igerLM9VU1fmeiTZzIgPu6AORER4MdEop04IBMb_nyI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-14-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Trading Technologies",
+    "title": "Trading Technologies PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1dGrR2Z5HG37Y_3oE_MZHZx6pbDrTrjvXYyzYeeW62O4/edit#heading=h.cab1qx43ozyr",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2024-25-intern-15-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Qualcomm",
+    "title": "Qualcomm PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1u8VrigU3jLn_kEyb5AAM24fmHmZIlkSdd4xWE69Idtw/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-16-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "FINTECH GLOBAL CENTER",
+    "title": "Fintech Global Center PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1pRS3D16svgwgj03DkBGzuerkTEFNdMruTngBAY09-LY/edit#heading=h.fl2hml98yo82",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-17-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "JSW Group",
+    "title": "JSW Group PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1VICeY1FduPDUHZCDqDhKr1Lkc6UmB6BD3wpPHZZ8FZ0/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-18-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Citi India",
+    "title": "Citi India PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1QW4iCYap84CHq5BqGnsa2bHWzqoMw0owB-ISfpSs3Hg/edit",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2024-25-intern-19-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Decimal Point Analytics",
+    "title": "Decimal Point Analytics PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1H2tMyliPq2k3y3C4OJkKEJvM2WacX_w5PhF7fqB8YcY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-20-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Accenture India",
+    "title": "Accenture India PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1FDR4vie7AKIiAugwbAYix_6naynNumgeub6esycBt9U/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2024-25-intern-21-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Jubilant Ingrevia",
+    "title": "Jubilant Ingrevia PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1VEIZmI3mexVzhhnm9cZTsPzVg4QYZb2d3NR7_EvS_XE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-22-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Godrej Properties Limited",
+    "title": "Godrej Properties Limited PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1YguDPDdkT2mnpnzHwHxF76h4W_IaLzKnoOx4VdEmg3w/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-23-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Publicis Sapient",
+    "title": "Publicis Sapient PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1qyIu5GQCpvGnl5cY5YEh2Mck5e2_FsO-xypjFK-hF5M/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-24-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Futures First",
+    "title": "Futures First PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1tnz_1Z_96EBYQE0T6yqTtH6W30GzvglMFgOaGoQNC88/edit?tab=t.0",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-25-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Metakshvi Technology Pvt. Ltd. (Vastvic)",
+    "title": "Metakshvi Technology Pvt. Ltd. (Vastvic) PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1K-Tl6ssAJ7ba17eRJI5uP2kAuH9VAqVOpzwGUUHQhog/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-26-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Tata Consultancy Services R&I",
+    "title": "Tata Consultancy Services R&I PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1PA26MnBYL5DHBAFe7Rqs1tdXfETXBWkwBoqA-n-OY8M/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-27-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Spindle Pte ltd",
+    "title": "Spindle Pte Ltd PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1TwytEEmrmxtP7-etOQjMWOzq0-claGRV3Kah2gyBtBw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-28-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "BUREAU OF INDIAN STANDARDS",
+    "title": "BUREAU OF INDIAN STANDARDS PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1EFJ4PK7-z6P8tzKN2F0D0HnewMelMHv3sjlkBbtoRD0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-29-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Adeveda Enterprises Pvt. Ltd. (Mixar)",
+    "title": "Adeveda Enterprises PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1z3SZy6YeCN8DsDPOaVD1wQCAVOIgGifT-JtWioTkVKQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-30-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Cligent Aerospace",
+    "title": "Cligent Aerospace PrepMat Internship 2024",
+    "url": "https://docs.google.com/document/d/1hgnO3hdxnpiK0LFcnLlV-dR_sn7qJNrksA2_lGle1k4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-intern-31-3",
+    "year": "2024-25",
+    "type": "Internship",
+    "subType": "3 Month Intern",
+    "company": "Amazon ML Summer School",
+    "title": "Amazon ML Summer School PrepMat",
+    "url": "https://docs.google.com/document/d/12dkIcWDmGgTd_pncH3m-UUAPkaE1qZ1cEN-stFJ8OzE/edit?usp=drivesdk",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-3-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Zomato",
+    "title": "Zomato PrepMat Placement 2024-25",
+    "url": "https://docs.google.com/document/d/1B6DEmvVscHHZsDyc6xWOoGnaxFfCjkn6rl_YL2pQPos/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-4-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Caterpillar",
+    "title": "Catarpillar PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/1QXcgPxklduQNHxilh8Ocjc0oa_6AgJGDNTsDARD1frU/edit?tab=t.0#heading=h.60z11bq39q43",
+    "domain": "Engineering Core"
+  },
+  {
+    "id": "2024-25-placement-5-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "InMobi Technologies Pvt Ltd",
+    "title": "Inmobi Technologies PrepMat 2025",
+    "url": "https://docs.google.com/document/d/1z0IhAcYpafMvV8qUGk4cXIq6Zwz4GLSnq2vUvin7yVA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-6-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Google",
+    "title": "Google PrepMat Placement 2024-25",
+    "url": "https://docs.google.com/document/d/1KMWmKjrblLbZa5YAbdLcy_oO_zmcWFangxUtq2xlyEY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-7-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Graviton Research Capital LLP",
+    "title": "Graviton Research Capital LLP Placement PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1Hy7DfsvgFEEanz_pa4jh3I_rSw0oI2vkNctb_pjtpOU/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2024-25-placement-8-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Axxela Research & Analytics Pvt Ltd",
+    "title": "Axxela Research & Analytics Pvt Ltd Placement Prepmat 2025",
+    "url": "https://docs.google.com/document/d/1nsNGswmkmDrQ_04c_rp_D7_XH_bKt0kHM-YExrHxovg/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2024-25-placement-9-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Atlas Copco (India) Private Ltd.",
+    "title": "Atlas Copco PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/17USfmqQFREWvjgz30h89haBrMbJ3Cz_sGvJXDk1a2D8/edit?tab=t.0",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-10-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Samsung Research Institute - Noida",
+    "title": "Samsung Research Institute - Noida Placement PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1CUTNKsyHB8ysGBiTWB0aUwk3mWAJvhxK7dwkT3ux-1w/edit?tab=t.0",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-11-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Samsung Research and Development Institute India Delhi",
+    "title": "Samsung Research and Development Institute India Delhi Placement PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1FQOWv55bh9uGEW2to0IAm1n4AUkRhQ7v0mG4F3sZ5n0/edit?tab=t.0#heading=h.mdioqf5vz5bx",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-12-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Texas Instruments",
+    "title": "Texas Instruments - Placement 2024-25",
+    "url": "https://docs.google.com/document/d/1EcWi3yfcQT0iIAZoG70nHn_XwAyiFlpu08u9o7gxL5M/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2024-25-placement-13-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "SEDEMAC Mechatronics Pvt Ltd.",
+    "title": "SEDEMAC Mechatronics Pvt Ltd. Placement Prepmat 2025",
+    "url": "https://docs.google.com/document/d/1kaKBydklTsxpP4t0z4-5nHWrDX3LYqrICuiIM3lkwoc/edit?tab=t.0#heading=h.2r47l4tqx6k2",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2024-25-placement-14-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Aspect Ratio Private Limited",
+    "title": "Aspect Ratio PrepMat - Placement 2024-25",
+    "url": "https://docs.google.com/document/d/149ZqqJnxFeul02KKBAPNtkMN92Of5dSNdiko0rhodyw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-15-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Walter P Moore Engineering India Pvt. Ltd.",
+    "title": "Walter P Moore Engineering Placement 2024-25",
+    "url": "https://docs.google.com/document/d/1ctFP3rfNeNC01yOuey9o2NZQm0Blj86TRRvIUp5qFPA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-16-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Bharat Petroleum Corporation Limited (BPCL)",
+    "title": "BPCL PrepMat Placement 2024-25",
+    "url": "https://docs.google.com/document/d/128EifSpTbqNdhkLrRldErH0cLQ5I4wOo104mU92SRY8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-17-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Accenture Japan",
+    "title": "Accenture Japan Placement PrepMat Internship 2024-25",
+    "url": "https://docs.google.com/document/d/1qMy8et4BtC2D6EjFwgIgG6auLlx3mN5cRah6U_U3Sp4/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2024-25-placement-18-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Meesho",
+    "title": "Meesho Placement PrepMat Internship 2024-25",
+    "url": "https://docs.google.com/document/d/1jfamR4iu0bjwMatxibw3zmrpUqHD9vbz-gOQqZwNunw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-19-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Tata Consultancy Services",
+    "title": "Tata Consultancy Services Placement 2024-25",
+    "url": "https://docs.google.com/document/d/1e1YewZhcPbk9xV6sUZdRcRqZCvdrjPTi8rdZ8QhdUvQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-20-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "HINDUSTAN PETROLEUM CORPORATION LIMITED",
+    "title": "HINDUSTAN PETROLEUM CORPORATION LIMITED",
+    "url": "https://docs.google.com/document/d/1mTn32mbBboXMKFcoUfqZ8sakk6i34yUKS0gKlY-CD9s/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-21-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "GCMMF LTD (AMUL)",
+    "title": "GCMMF LTD (AMUL) Prepmat 2024-25",
+    "url": "https://docs.google.com/document/d/1r-FKoLChnfUHu_ZooFr0Ms8CabCkIqcRQNMDF9lZUVk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-22-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Axis Bank Limited",
+    "title": "Axis Bank Limited Prepmat 2024-25",
+    "url": "https://docs.google.com/document/d/1ftaN4bVAFEEVajPreO3LEoiWxOZtbzOjby8lI5mXtYQ/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2024-25-placement-23-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Johnson Controls Hitachi Air Conditioning (India) Limited",
+    "title": "Johnson Controls Hitachi Air Conditioning (India) Limited PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/1VqO4Zkjg1TP58ALptBEqkBnwE2IwcChWe0pHOVpxjiI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-24-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "SmartSense Consulting Solutions Pvt. Ltd.",
+    "title": "SmartSense Consulting Solutions Pvt. Ltd. PrepMat Internship 2025",
+    "url": "https://docs.google.com/document/d/10-H-qXDfpzSaOkXWOV2DcaZ3K6ylZHBmi-DXUO89LLc/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2024-25-placement-25-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Turing Global India Pvt. Ltd.",
+    "title": "Turing Global India Pvt. Ltd. PrepMat 2025",
+    "url": "https://docs.google.com/document/d/1klNvEveSUbWJOPswFwLBMWwfA0xi1ishMpi9jEQYw6A/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-26-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Centre for Development of Telematics (C-DoT)",
+    "title": "Centre for Development of Telematics (C-DoT) PrepMat 2025",
+    "url": "https://docs.google.com/document/d/139udg-pxGFzWknZepHbGUQP28ohle7pOGpYKLC0YhyQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-27-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Decimal Point Analytics",
+    "title": "Decimal Point Analytics PrepMat 2025",
+    "url": "https://docs.google.com/document/d/1VHkHMVt66UYkaEPMPAWCK8j-DmmpzE_dDEbZfaFhjJU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-28-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Coachbar Inc.",
+    "title": "Coachbar Inc. Prepmat 2024-25",
+    "url": "https://docs.google.com/document/d/1Gys8aXCITN6tdRZehHgGFKbNJV8flsO132LojlI-mIM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-29-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Centre for Computational Technologies",
+    "title": "Centre for Computational Technologies PrepMat Placement 2025",
+    "url": "https://docs.google.com/document/d/1j7g-U_gpKxWn9egGMaEDR8JTfkFqeNmqbWWlj4YgaD4/edit?tab=t.0#heading=h.mdioqf5vz5bx",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-30-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Publicis Sapient",
+    "title": "Publicis Sapient Prepmat 2024-25",
+    "url": "https://docs.google.com/document/d/17bYTIbLMl9zjvOYZ96reT3Raf0HiROjh48LM40R4iQY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-31-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Hitachi Energy",
+    "title": "Hitachi Energy Prepmat 2024-25",
+    "url": "https://docs.google.com/document/d/14QaY6G_y53Z03wqmeRY61-hOEJnE9W-xxskW-EWSXh8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-32-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "JSW",
+    "title": "JSW PrepMat Placement 2024",
+    "url": "https://docs.google.com/document/d/1cUx4ozgPC2rT1d5qwGV8cDnneKDO9WunlKz_Mvz2ZsU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-33-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "LTIMindtree Spark (Larsen & Toubro Group company)",
+    "title": "LTIMindtree Spark (Larsen & Toubro Group company) PrepMat 2025",
+    "url": "https://docs.google.com/document/d/186i2Bq_4P2WtwqbHYQ0410evWG3r_5SIM_OtPp70-J8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-34-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "ZS",
+    "title": "ZS Prepmat 2024-25",
+    "url": "https://docs.google.com/document/d/1ouCjOVpgf4ZmWCPs0wN3d2Up7ThjHWtFx6KA394bq0o/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-35-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "DEODHAR CLASSES",
+    "title": "Deodhar Classes PrepMat Placement 2024",
+    "url": "https://docs.google.com/document/d/1GssnE_JlxdNzD57OrvOx0utKjg2I8s0f4uX-FOha6YM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-36-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "FNZ Group",
+    "title": "FNZ Group Placement PrepMat Internship 2024-25",
+    "url": "https://docs.google.com/document/d/1u3K5VsNAW9vypLMlDjA6WDyXFjSo3y_La1gt-TEp6xs/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-37-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Bakliwal Tutorials",
+    "title": "Bakliwal Tutorials PrepMat Placement 2024",
+    "url": "https://docs.google.com/document/d/1NTsPDjusjWqqiiZj6X2hMScDHPogBEDZ6-9eVldBsKo/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-38-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "AmulFed Dairy, Gandhinagar (A Unit of GCMMF Ltd, Anand)",
+    "title": "AmulFed Dairy",
+    "url": "https://docs.google.com/document/d/1C5JN7WvF6U1lbhlXUiMuZoffu5J4rRuflA0TO3RPcQA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-39-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Narayana Group",
+    "title": "Narayana Group Prepmat 2024-25",
+    "url": "https://docs.google.com/document/d/10TxgiC2MA3u9OEV6da-V1PC2T1xIojdPBW7qatFbA58/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-40-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Robust Results Private Limited (prutor.ai)",
+    "title": "Robust Results Private Limited",
+    "url": "https://docs.google.com/document/d/1eUBvqtBxWi990SrQ4IMb4qVU08K5fQRvy82lUwEtgZI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-41-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Decimal Points Analytics",
+    "title": "Decimal Points Analytics Placement PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1nQaWfw53-dd9shZzVxXDKEeEebn3JLSVPHTPcsQy1CU/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-42-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Spindle Pte Ltd",
+    "title": "Spindle Pte Ltd Placement PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1BBBHPWExRbRTCaQ_U_38w2rF-Lm8I1LsM-ZaPSPvGX0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-43-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Engineers India Ltd (EIL)",
+    "title": "Engineers India Ltd (EIL) Placement PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1Ir3PBP6EP_p3nyj4_U7ENMi_SxdWQg61Qe4ynLB0ORU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-44-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "HDFC Life",
+    "title": "HDFC Life Placement PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1u8pBGV_QkFP5T-v_s00QPAXCBVQG4nb7fEprhxlUjDg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-45-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Nexus Cognitive Pvt Ltd",
+    "title": "Nexus Cognitive Pvt Ltd PrepMat Placements 2024",
+    "url": "https://docs.google.com/document/d/1x-tQAdD5N6pOz05HkE_5aDOATIAaScnzBrf8ObTE0qc/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-46-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Anakin (Y Combinator)",
+    "title": "Anakin (Y Combinator) PrepMat Placements 2024",
+    "url": "https://docs.google.com/document/d/1j89qYfiy89f0b5jKDiM0sZvpE-5XbBlolVvjegzo804/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-47-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Micron",
+    "title": "Micron PrepMat Placements 2024",
+    "url": "https://docs.google.com/document/d/1RknfNX3Vtb2pLo6N486OfYkvQjGxyZYSz1VBvf0OfnE/edit?tab=t.0#heading=h.cab1qx43ozyr",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-placement-48-3",
+    "year": "2024-25",
+    "type": "Placement",
+    "subType": "On Campus Placement",
+    "company": "Physics Wallah",
+    "title": "Physics Wallah PrepMat 2024-25",
+    "url": "https://docs.google.com/document/d/1cR7gI_9sdTpbZJxT60XtCadDlsB1as-xmU6unD77eF4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2024-25-research-2",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "University Of Miami",
+    "title": "University of Miami Prepmat 25",
+    "description": "Domain: Elec, CS, Chem, Mech, MSE",
+    "url": "https://docs.google.com/document/d/1QDQGIYNmoIFlTy49k_mEdz5LcPU2U39VtIEIdqD_dXY/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-3",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Purdue University",
+    "title": "Purdue Prepmat 2025",
+    "description": "Domain: Elec, CS, Chem, Mech",
+    "url": "https://docs.google.com/document/d/146Lm2H413VMHu25QN9c_pxO1EajI7srJDwx72HLDnlk/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-4",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Buffalo State University",
+    "title": "University of Buffalo Prepmat 2025",
+    "description": "Domain: Civil",
+    "url": "https://docs.google.com/document/d/1RKFRgoOXZaigF35isY3E3VhpIanj35hLIA8wZ34D0i8/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-5",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Cambridge",
+    "title": "Cambridge University Prepmat 2025",
+    "description": "Domain: Elec, CS, Mech, Civil",
+    "url": "https://docs.google.com/document/d/1adSdcY-Xs-zfDArYfF5mnCQE5UhWz9gnllo5r_sKGLo/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-6",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "University of Sydney",
+    "title": "University of Sydney Prepmat 2025",
+    "description": "Domain: CS",
+    "url": "https://docs.google.com/document/d/1MFNGQ2s4sIC2dVrJHe5lJDgi5lOTUfIVN3TCeQqQzcw/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-7",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Caltech",
+    "title": "Caltech Prepmat 2025",
+    "description": "Domain: CS, Mech, MSE",
+    "url": "https://docs.google.com/document/d/1FQbwOSlAcGe6Oa_jn3U0tO6nSZQdj6AQHF_ATEevh00/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-8",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "University of Washington",
+    "title": "UWash Prepmat 2025",
+    "description": "Domain: Mech, MSE",
+    "url": "https://docs.google.com/document/d/1WkwuBieROJPf4fdM0kkSzP3SrPyuHHeaaQtb5FZHhu4/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-9",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Colorado State University",
+    "title": "Colorado State University Prepmat 2025",
+    "description": "Domain: Cog Sci",
+    "url": "https://docs.google.com/document/d/1zgr7PpJgqsG2UyWs6eArp_3Xd-kgj-V6WYmi5-nyHl8/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-10",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "EPFL",
+    "title": "EPFL Prepmat 2025",
+    "description": "Domain: Elec",
+    "url": "https://docs.google.com/document/d/1isDJ9JclI_XSOkmA1T4Vmd1H6a_qEK3cdpHCY4jK6Fw/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2024-25-research-11",
+    "year": "2024-25",
+    "type": "Research",
+    "subType": "Foreign University",
+    "company": "Washington University",
+    "title": "Washington University Prepmat 2025",
+    "description": "Domain: Elec",
+    "url": "https://docs.google.com/document/d/1neFecP5XLLwIB5ZRDiGhvE2YZKWYz_mZrJNzE38Vm-U/edit?usp=sharing",
+    "domain": "Research / Higher Studies"
+  },
+  {
+    "id": "2023-24-internship-2-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Accenture",
+    "title": "Accenture",
+    "url": "https://docs.google.com/document/d/17pBU_N3DFmsCYqflVr1NYwB9fHx6uaHe__vxa7oAxAc/edit",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2023-24-placement-2-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Accenture",
+    "title": "Accenture India",
+    "url": "https://docs.google.com/document/d/1qdURBn1cqHM083xGyJXKA1O5orZWxhgvlQm3gND1BpY/edit",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2023-24-placement-3-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Accenture Japan Ltd.",
+    "title": "Accenture Japan Ltd",
+    "url": "https://docs.google.com/document/d/1AGaBQzAiUYtV9_4ZEsHeVCm908kMqmU939qgUK-oMEo/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2023-24-placement-4-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Addverb Technologies",
+    "title": "Addverb Technologies Prepmatâ23",
+    "url": "https://docs.google.com/document/d/1xdTfsDOLwRPDE06nc9Ux8f9bbSN_x-b0qW6f2FY-zFc/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-5-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Amazon (WoW-Off Campus)",
+    "title": "Amazon Prepmat Internship â23 (Off-Campus)",
+    "url": "https://docs.google.com/document/d/105PK4_Osu2p92ktUEs_fnJ8KWV1jQ8uXVT-BO5_uLA8/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-6-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Amuse Labs",
+    "title": "Amuse Labs",
+    "url": "https://docs.google.com/document/d/1TmFHRAPgMKf6nMj4LnnBGKdtnFo4O5NG_czTal6MNYo/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-7-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Arcelor Mittal Nippon Steel, India",
+    "title": "Arcelor Mittal Nippon Steel, India",
+    "url": "https://docs.google.com/document/d/1cwI5dzXDzWeKRXHzWDQTy1qAkx4bTJYDR7rl1Swn-x0/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-8-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "AspectRatio",
+    "title": "Aspect Ratio",
+    "url": "https://docs.google.com/document/d/1LZK0f_9N1K4hX9YJC4t-_F6sKKU6HibFTg5PB4PTgbU/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-9-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Atlassian",
+    "title": "Atlassian PrepMat '23",
+    "url": "https://docs.google.com/document/d/1TZpmq3rdwlLGY7mjMQCK44I8vaxflHW9aVJgrtZOmdQ/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-10-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Axis Bank",
+    "title": "Axis Bank",
+    "url": "https://docs.google.com/document/d/1jth92PfEOEMCtGFb5WEIuCrlddiERP1TxH2L4YpSbBI/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-placement-11-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Axtria India",
+    "title": "Axtria India",
+    "url": "https://docs.google.com/document/d/1pyvtdTUb8H_SReRhUoCDUZRnYI75DsDHj2GXbblpfGg/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-12-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Axxela Research & Analytics Pvt Ltd",
+    "title": "Axxela prepmat",
+    "url": "https://docs.google.com/document/d/1Q9vEBAkw3ZWke56PuiT1P0e2JbbMsm6T3R3mDk6Pnhw/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-placement-12-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Axxela Research & Analytics Pvt Ltd",
+    "title": "Axxela Research & Analytics Pvt Ltd",
+    "url": "https://docs.google.com/document/d/1onWEPUdume36gWCON9phzNWPf2bsqh5nE5ur8lWRETo/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-internship-13-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Barclays",
+    "title": "Barclays Prepmat '23",
+    "url": "https://docs.google.com/document/d/1zE1j62EA-rZP-A4T3CJjqa38K5mhY0xgMgsXQJzJTEk/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-placement-13-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Barclays",
+    "title": "Barclays Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1uYqa47xjPzzj9REi8m-tkxL-U5yf6_nRhOl1AJB3H5U/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-placement-14-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Broadbridge Financial Sol",
+    "title": "Broadridge_PrepMat",
+    "url": "https://docs.google.com/document/d/1Ra_APhWsZxx-LhlFlpajJLDLPRe2mM6PwWdkVXk396I/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-15-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "C-DOT (Centre for Development of Telematics)",
+    "title": "C-DOT (Centre for Development of Telematics)",
+    "url": "https://docs.google.com/document/d/11259zuDBi9FgZSFKNDyZN7u6LItzbcslxs7VUCMecGk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-16-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Cadila Pharmaceuticals Ltd",
+    "title": "Cadila Pharmaceuticals Ltd",
+    "url": "https://docs.google.com/document/d/1akgdg_Ghu0zaKcvY5b7ti7zlRC-Bcy6sstNKVsBG9os/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-17-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Citi Bank",
+    "title": "Citi Prepmat Intern '23",
+    "url": "https://docs.google.com/document/d/123otJGvZ7eKS2N7lQZS870O8IkCvqlHyPRtwq0tDvXQ/edit",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2023-24-internship-18-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "DE Shaw",
+    "title": "D.E Shaw PrepMat '23",
+    "url": "https://docs.google.com/document/d/1ugr8UyCJn82TTR169C9xz7UZk5O28oAw-iyLFTxogfE/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-internship-19-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Decimal Point Analytics",
+    "title": "Decimal Point Prepmat",
+    "url": "https://docs.google.com/document/d/1Fym8CVKEXIfSuSQTQG_O6xbb0G1Nk4w9bBZWp_La4Qo/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-20-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "DevRev",
+    "title": "DevRev PrepMat '23",
+    "url": "https://docs.google.com/document/d/10KqE8G4dgLooGhIPCUSvzHyvoSDaz0hlJPBtmgbrjsA/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-21-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Estee Advisors",
+    "title": "Estee Advisors",
+    "url": "https://docs.google.com/document/d/1n4g0hVwWWEEIDfndEcqFKRtV7Y8p0f3WIisUOCggDsY/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-21-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Estee Advisors",
+    "title": "Estee Advisors Placement PrepMat '23",
+    "url": "https://docs.google.com/document/d/1BrM7Ja07oBIcc1bFdaWVUPl8TeARIF0gz7vaKy3jsxk/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-22-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Futures First",
+    "title": "FuturesFirst PrepMat",
+    "url": "https://docs.google.com/document/d/1IMfxuLRTZ_RKEftXq5vR6gilPeAZfFjg__u2-MzL7w8/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-23-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "GCMMF LTD (AMUL)",
+    "title": "GCMMF LTD (AMUL)",
+    "url": "https://docs.google.com/document/d/18f_A6hlZ15evhid2yjyC2sGf_5z0iLlvdfDJj30KxyQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-24-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Graviton",
+    "title": "Graviton Prep Mat - 2023-24",
+    "url": "https://docs.google.com/document/d/1Zj8bMkGyeXj-HI2MS8J5s4wgBwZlMxzBVyhoYu-QHS0/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-placement-25-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "HINDUSTAN PETROLEUM CORPORATION LIMITED",
+    "title": "HINDUSTAN PETROLEUM CORPORATION LIMITED",
+    "url": "https://docs.google.com/document/d/1pExo7Tkt3I8Z4EwdOoOZf2BGspW_Lwc3GAUb2JJV3Xc/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-26-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Hitachi Energy",
+    "title": "Hitachi Energy",
+    "url": "https://docs.google.com/document/d/1MM0tUuTHu3gpWSBqVZJZwFVWVVAO9a751lNRz2pbuCw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-27-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "I'mbesideyou",
+    "title": "Iâmbesideyou",
+    "url": "https://docs.google.com/document/d/1DZ05B4kwR_t85HZCA1stdnMyeCHZnt6eOcnpvedsy2Q/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-28-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Jaguar Land Rover Technology and Business Services India Limited",
+    "title": "Jaguar Land Rover Technology and Business Services India Limited",
+    "url": "https://docs.google.com/document/d/1gsvSsbl_gu8bDOzX643Kkvu9EYRM5Ao-fdGRPnP0Wi4/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-29-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "JSW",
+    "title": "JSW Prepmat",
+    "url": "https://docs.google.com/document/d/12zMuq4f-7HzTbWzvKGQlNnq9mLrG3l7m7VRrM9VYe-Q/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-30-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "MAQ Software",
+    "title": "MAQ Software",
+    "url": "https://docs.google.com/document/d/10Qt80btyOPv6DwVZ3rT3sjpPqIuLY5Bcpoccao9fEkY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-31-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Media.net",
+    "title": "MediaNet PrepMat '23",
+    "url": "https://docs.google.com/document/d/1CxpwSrQVJ-vRh4MX6GZUXOr2v-PIm0dFHvedGVj2oTo/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-31-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Media.net",
+    "title": "Media.net Prep Mat - 2023-24",
+    "url": "https://docs.google.com/document/d/1WTfBXXdSO2jJ14vP4trgVlKmi3IXfa9JbmcAVLnq3rw/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-32-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Money Forward, Inc.",
+    "title": "Money Forward, Inc",
+    "url": "https://docs.google.com/document/d/1fMQnTHDOoJT8nmAxTrbUP7W1Gqo3BMRZwCZmzSRKCqI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-33-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Nation With Namo",
+    "title": "Nation With Namo",
+    "url": "https://docs.google.com/document/d/1TVGA09FUUDFCgAYpq4X-xzYLQUz5A-8WMTMoIdvQpM0/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-34-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Nvidia",
+    "title": "NVIDIA Prepmatâ23",
+    "url": "https://docs.google.com/document/d/1sZQDmHbKmOQA4c4TtI1TEfyv8AoIs80p1SjQFLjW6AM/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-35-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Oracle",
+    "title": "Oracle PrepMat '23",
+    "url": "https://docs.google.com/document/d/13n-agVainwnCTYMvfk3iBd0_BFny_TYJBKBPIADNWuE/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-36-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Perceptive",
+    "title": "Perceptive",
+    "url": "https://docs.google.com/document/d/1vycAcYNXaubybLCobHRLmdMxqNCT4lbDrE0jqmSycFA/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-37-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Polyplex Corporation Limited",
+    "title": "Polyplex Corporation Limited",
+    "url": "https://docs.google.com/document/d/1_nDLPI0O3OatzeIiwj4xAZfux5CrWF9h3-p9SS4ejTc/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-38-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Publicis Sapient",
+    "title": "Publicis Sapient",
+    "url": "https://docs.google.com/document/d/1lD0J7Yt1GfpCDlGlggBaczALms5gql_Ilf7swWlyiM8/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-39-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Samsung R&D",
+    "title": "SamsungRnD",
+    "url": "https://docs.google.com/document/d/1AbBh5zR-8F5VnAfhMxnQ-t1tfIsfYflHDhQTHHULTrM/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-40-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Searce Inc",
+    "title": "Searce Inc",
+    "url": "https://docs.google.com/document/d/11DYJWs8jRXm3oid_D_3QOVhfuxDcaGfohUwYpeJt7qE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-41-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Sedemac Mechatronics",
+    "title": "Copy of SEDEMAC MECHATRONICS PREPMAT",
+    "url": "https://docs.google.com/document/d/1OTVKCGK4OXCtbR_f08WmI3LUZj-VEzyxllYb0jtb_Jw/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2023-24-internship-42-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "SkanAi",
+    "title": "SkanAi PrepMat '23",
+    "url": "https://docs.google.com/document/d/19KXMOH6JiSsDS8Y6LXrViHw1EyImNB-rqG32a7HVhY8/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-43-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "SmartSense Consulting",
+    "title": "SmartSense Consulting Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1dNp5k-3nXJJx7GJcrwrDj0Xns54MGHNyUPNdCVtbM3g/edit",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2023-24-placement-44-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Tata Consultancy Services",
+    "title": "Tata Consultancy Services",
+    "url": "https://docs.google.com/document/d/1uvuoixjQXL5YoOMfTR_vy67mLoO_4dpZoxW_vIS1F7I/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-45-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Texas Instruments",
+    "title": "Texas Instruments Prepmatâ23",
+    "url": "https://docs.google.com/document/d/1qRSnJjB7tsIjQQ8tpW-pmChuv6mh1ThaVSUqLYRhwGE/edit",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2023-24-placement-45-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Texas Instruments",
+    "title": "Texas Instruments (Software)",
+    "url": "https://docs.google.com/document/d/1Qw6m1hgb8mucTPDalwgXdl-vamu6hnB0gVc1qr_IyJE/edit",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2023-24-placement-46-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Tiger Analytics",
+    "title": "Tiger Analytics",
+    "url": "https://docs.google.com/document/d/1to2aEhUCYjqcR0QyplDNjmd84f5yKgdgV8JKHuBB680/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-internship-47-1",
+    "year": "2023-24",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Trading Technologies",
+    "title": "Trading Technologies",
+    "url": "https://docs.google.com/document/d/1GBjZ8d9V5r16QEakJlsbYFWYwPNGBv7K0IoViXDH3DI/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2023-24-placement-48-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Veritas Technologies",
+    "title": "Copy of PrepMat_Veritas",
+    "url": "https://docs.google.com/document/d/1jjoujViOKkaLj2VGoWwX6oy0FEAoKgcRAK-yE9YDw_o/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-49-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Volvo Group India Pvt Ltd",
+    "title": "Volvo Group India Pvt Ltd",
+    "url": "https://docs.google.com/document/d/1FDAV1iNUvA7Ai0ODk5K3Ep5rbadVVtuIK-IbnJUoqho/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-50-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Walter P Moore",
+    "title": "Walter P Moore_Placement",
+    "url": "https://docs.google.com/document/d/1cqG7KzC3ySwAwQWpQC_h07sYrD5gARajTJo0XZc4uFM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-51-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Zomato",
+    "title": "Zomato Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1G4Q35b6YjTvjqPHEjFUelRcgpH8KnmeIicAwv3V60y8/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2023-24-placement-52-2",
+    "year": "2023-24",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "ZS",
+    "title": "ZS",
+    "url": "https://docs.google.com/document/d/1AXDNTW4PHXIGfN307pB4wHIfN9oBeXzpnYYUcpUrFqY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-2-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Accenture",
+    "title": "Accenture Internship Prepmat",
+    "url": "https://docs.google.com/document/d/15oM8qqFij3HPsREo7DfQ88JtR1OqN6hQF9B5dP6Eurs/edit?usp=drive_link",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2022-23-placement-2-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Accenture",
+    "title": "Copy of Accenture_PrepMat",
+    "url": "https://docs.google.com/document/d/19UYE2LRkfHdt9pgZSnJf7aLMonIXtP5wL2AcYYRffs8/edit?usp=drive_link",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2022-23-placement-3-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Accenture Japan Ltd.",
+    "title": "Copy of Accenture Japan",
+    "url": "https://docs.google.com/document/d/1qusZwNqy6DnQwYVS6BQG7wXJ0_PRmtKxtPserVw4zvc/edit?usp=drive_link",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2022-23-internship-4-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Amazon",
+    "title": "Copy of Amazon Internship PrepMat",
+    "url": "https://docs.google.com/document/d/1QyNSE0P_tVnVBqQlgcokofD6uR9F6cFHAXdmc0rbhwc/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-4-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Amazon",
+    "title": "Copy of Amazon Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1VfSsAJce_ipjWSTA7MviFfmQmyOwP88CmR3A8cYb2js/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-5-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "AMDOCS",
+    "title": "Copy of AMDOCS Placement Prepmat 2022",
+    "url": "https://docs.google.com/document/d/1exSg1o-wRz4nfFboPAWuFGSZAvOmiqbrBZyc-Hyyl8g/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-6-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "AspectRatio",
+    "title": "Copy of AspectRatio",
+    "url": "https://docs.google.com/document/d/19czgGn9_GU0cS9UdkGvcP8qcq2INojNWevRZvNRByjQ/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-7-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Atlas Copco GECIA",
+    "title": "Copy of Atlas Copco GECIA Placement Prep Mat 2022",
+    "url": "https://docs.google.com/document/d/1zskVlvtkxgKbq8kgA61pzmd5GHGKvSCevxzIJ9ytlro/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-8-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Atlassian",
+    "title": "Copy of Atlassian Prepmat",
+    "url": "https://docs.google.com/document/d/1xwgEkYHUS2wywnk6wDyd5eYJkLB_9C2klMrvyEj-a8c/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-9-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Axis Bank Limited",
+    "title": "Copy of Axis Bank Internship Prepmat",
+    "url": "https://docs.google.com/document/d/1g-RZIZAsq72g91HAm5J0F2vSyvGtebg-TKsV6npRtAI/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-placement-9-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Axis Bank Limited",
+    "title": "Copy of Axis Bank Limited",
+    "url": "https://docs.google.com/document/d/14cMIT5ddiE4Wzv_f8AzQXVX714Nl2O9_qj1XAyxFbfg/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-internship-10-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Axxela Research & Analytics Private Limited",
+    "title": "Copy of Prepmat for Axxela Research _ Analytics Private Li",
+    "url": "https://docs.google.com/document/d/1rHvDCgousrIXvYgAGD8_9tzg_Oto9FRb_w8ZSdFPruo/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-placement-11-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Barclays",
+    "title": "Copy of Barclays",
+    "url": "https://docs.google.com/document/d/1ASKqEStmASqvJW9wK5KSHODvYudT1t2Ams7UZyKKJdc/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-internship-12-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Citi Bank (CSIPL)",
+    "title": "Copy of PrepMat for Citibank (CSIPL)",
+    "url": "https://docs.google.com/document/d/1AHHnQwOe6Tb8V-XGM-xENyumNMhjluMZWnC4UVAJtdo/edit?usp=drive_link",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2022-23-placement-13-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "CoinDCX",
+    "title": "Copy of CoinDCX",
+    "url": "https://docs.google.com/document/d/1WvR1F5fELyz_G13Z3afsycU42Ty5QSvS2pz2QeSAHgM/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-14-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "CRED",
+    "title": "Copy of CRED Placement Prepmat",
+    "url": "https://docs.google.com/document/d/15jLzky42mPCffJlSrN9OnftcGHjVsl6tJyoescGit0E/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-15-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "D. E. Shaw India Private Limited",
+    "title": "Copy of D.E Shaw India Private Limited",
+    "url": "https://docs.google.com/document/d/1dYpsMTp8w8nTqecrFYdTb6GSafx-UO7fXcYWkqAP6J4/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-16-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Decimal Point Analytics",
+    "title": "Copy of Decimal Point Analytics",
+    "url": "https://docs.google.com/document/d/1hvP4q5TKSZ5gWoo87L7wR54vFygtlP4lGex2rfDCSFs/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-17-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "DevRev Cloud India Private Limited",
+    "title": "Copy of Devrev Internship Prepmat",
+    "url": "https://docs.google.com/document/d/1IZ6es2Z8I4WD_M3kRNHb0RulUFP5cGo_pcUR95pCOB8/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-18-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "EXL Service",
+    "title": "Copy of EXL SERVICES",
+    "url": "https://docs.google.com/document/d/1djNAQy0AYsTjNvdOH2p5veZircxTY20dMfBgi_VG1I8/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-19-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "EY GDS",
+    "title": "Copy of EY GDS Placement Prepmat 2022",
+    "url": "https://docs.google.com/document/d/1K2tKXk06SRTTfACIfTCfo-mtoo_L_Tt2Up8CMXKOMoM/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-20-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "GAIL",
+    "title": "Copy of GAIL PrepMat - 2023",
+    "url": "https://docs.google.com/document/d/120zCSqfS0b9fvUdvn36EOBeeUo3_9yo4OGRNSqsi3Us/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-21-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "GCMMF Ltd (AMUL)",
+    "title": "Copy of Amul_Placement_PrepMat",
+    "url": "https://docs.google.com/document/d/1j6E5ErVuAXdeNU5_sq-eJlBTBllQGSB8Rs4FtFzgVtQ/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-22-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "General Aeronautics Pvt Ltd",
+    "title": "Copy of GENERAL AERONAUTICS PVT LTD",
+    "url": "https://docs.google.com/document/d/1nodQY5WEKD8Xt-h8Xw-jDQKAPCDZgh68GtDrDabOBns/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-23-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Graviton",
+    "title": "Copy of Graviton",
+    "url": "https://docs.google.com/document/d/176mJ5oHn1HDxSqbT3uqVK5ObBTDnzQh_awkkiuMZau8/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-internship-24-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "HDFC Bank",
+    "title": "Copy of HDFC Bank_PrepMat.docx",
+    "url": "https://docs.google.com/document/d/1S7XTHd5xqoSn8n9w-0nzDQCQUGI4BnP4/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-placement-24-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "HDFC Bank",
+    "title": "Copy of HDFC Bank Placement Prepmat 2022",
+    "url": "https://docs.google.com/document/d/1U-NC3vLSWilWHYlH1uIr_NOtgSAcGH_XicN0YfBMBGM/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-placement-25-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Infogen Labs Pvt. Ltd.",
+    "title": "Copy of Infogen Labs Pvt. Ltd",
+    "url": "https://docs.google.com/document/d/1OdXpydgMxbwnWSmHrVpO6CBEc792CrmcbzcQBhkooQI/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-26-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Intech Creative Services",
+    "title": "Copy of Intech Creative Services",
+    "url": "https://docs.google.com/document/d/1fh7ANa8Hnpyff0_kkpDibV_dJ9ItiHOCZETbQmqpz14/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-27-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Jay Chemicals",
+    "title": "Copy of Jay Chemicals",
+    "url": "https://docs.google.com/document/d/1TOMS-J3gYasNGcnaKC4Jv3pJ36kkj8tAVjS79p-Kh5o/edit?usp=drive_link",
+    "domain": "Engineering Core"
+  },
+  {
+    "id": "2022-23-internship-28-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "JSW Group",
+    "title": "Copy of JSW Prepmat",
+    "url": "https://docs.google.com/document/d/1CEJVBlTfeK-GxgphR6VM3emZLhR8t0AhuKpbWWuSQpI/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-29-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "L&T",
+    "title": "Copy of L&T",
+    "url": "https://docs.google.com/document/d/1loVhXQiGypyN10Y-To_6gTFSXRZB4qE-2-eEYz8xT8g/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-30-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "MathWorks India Private Limited",
+    "title": "Copy of MATHWORKS",
+    "url": "https://docs.google.com/document/d/1Lakttx7VT9RbM13GDG1D2yrq0cVKqSPwlfJDL0BqBbs/edit?usp=drive_link",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2022-23-placement-31-0",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Media.net",
+    "title": "Media.net",
+    "url": "http://Media.net",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-31-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Media.net",
+    "title": "Copy of Media.net",
+    "url": "https://docs.google.com/document/d/1tjav7hQYiCHNKQFg5AjU8jEZhbbKXT8DRCIR2DM6go0/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-32-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "NAVI Technologies",
+    "title": "Copy of NAVI Technologies PrepMat",
+    "url": "https://docs.google.com/document/d/17bwJPBIbGGJWS3mLlPk0atHFt3zIHXKlfw6SwS_YkWU/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-33-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Newzera Tech Labs Pvt Ltd",
+    "title": "Copy of Newzera Tech Labs Pvt Ltd",
+    "url": "https://docs.google.com/document/d/1S8y43oADw19VG2XVQkKhGZsRscv6boyBsZ7eDNG-GxM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-34-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Nike India Technology",
+    "title": "Copy of Nike India Technology",
+    "url": "https://docs.google.com/document/d/1eXrLNBUBEClDnumRHCCymBYQ5_ZxyiveJ-3j21zel_s/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-35-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "NXP Semiconductors",
+    "title": "Copy of NXP Semiconductor Placement Prepmat 2022",
+    "url": "https://docs.google.com/document/d/1DhzFPV3DZPZ5kZBiTy3qh6PJK3aWwsFM_XXSPbIpD5k/edit?usp=drive_link",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2022-23-internship-36-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Oracle",
+    "title": "Copy of Oracle Ltd Internship Prepmat",
+    "url": "https://docs.google.com/document/d/1Uq5Y9wMk5zcGcMFLhrnlQnRN1vHbKmov6N4bE64FmSw/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-36-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Oracle",
+    "title": "Copy of Oracle",
+    "url": "https://docs.google.com/document/d/1FqWLxTvum5qwN26CD1UO0xHcjP6hXKxq5vVHidoWIhA/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-37-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Perceptive Analytics Pvt. Ltd",
+    "title": "Copy of Perceptive Analytics Pvt",
+    "url": "https://docs.google.com/document/d/1CJ3_M0rEEloqd70QugSjZf128T7n1CkV0jVgCDtztWo/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-38-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Publicis Sapient",
+    "title": "Copy of Publicis Sapient Internship Prepmat",
+    "url": "https://docs.google.com/document/d/1Jt3-sypFZzBvWj1N9aI7rz66piZj3JZ1_57ApqZNYNM/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-39-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "PUMA",
+    "title": "Copy of Puma Internship Prepmat",
+    "url": "https://docs.google.com/document/d/16H1dN1PNeaa3uyJMup-Ct4FRZPrHft1_bLlqJOA_zt4/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-40-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Rakuten",
+    "title": "Copy of Rakuten Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1_i1aJ54ePQsO3U3i85UsTvwUfhdF-Es5oT614Sz06vw/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-41-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Rippling",
+    "title": "Copy of RIPPLING Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1h4GeTOHdtSbXEKyMDy4iKxau8sxl4tWxYvpKLq_-qVI/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-42-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "SEDEMAC",
+    "title": "Copy of SEDEMAC PrepMat",
+    "url": "https://docs.google.com/document/d/10go369FcPQamMs0pQZ_VM8uFAVfMpT8-xQxqoxiLAtE/edit?usp=drive_link",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2022-23-placement-43-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Siemens",
+    "title": "Copy of Siemens",
+    "url": "https://docs.google.com/document/d/1fQuHEgpH13ITbjw633V-IulJWtRo0aXYgtP5Fa1ZIOY/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-44-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Singularity Dynamics",
+    "title": "Copy of Singularity Dynamics Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1532m550eHdGJppWnMyI0kpVgZrmd85P_hJwZZw5W9GU/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-45-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Skan AI",
+    "title": "Copy of Skan.ai_PrepMat.docx",
+    "url": "https://docs.google.com/document/d/1EXjZOl55AkRftpboELaWqVVTkvSL7usf/edit?usp=drive_link&ouid=112873255026419881666&rtpof=true&sd=true",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-45-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Skan AI",
+    "title": "Copy of SkanAI Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1rP-b6gZp7lCAKjQFs-a9kVsJ9E_AROFcIlr9ea5zCy0/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-46-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "SPECTRUM Techno Consultants Pvt Ltd",
+    "title": "Copy of SPECTRUM Techno Consultants Pvt Ltd Placement Prepmat 2022",
+    "url": "https://docs.google.com/document/d/1Fva0iQae9PM9SjHjaVYFzMkzsluAvDt7UJyaoqjxCY4/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-47-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "SRF Ltd",
+    "title": "Copy of SRF Ltd Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1-wp-d7nY4WkrIjzskqtbT_QTt2xoDuiDzjaOjybfmUI/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-48-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "STRAND LIFE SCIENCES",
+    "title": "Copy of STRAND LIFE SCIENCES - Internship Prepmat 2022",
+    "url": "https://docs.google.com/document/d/1N2bXAOtjoLkU-8lHyA43ZqTiS9ZleMQYgjTzwzE6wMM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-48-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "STRAND LIFE SCIENCES",
+    "title": "Copy of STRAND LIFE SCIENCES",
+    "url": "https://docs.google.com/document/d/1PAEMmscK7Jn84jTmpVRoFgnNtupXw2YQzoFVQ8H2o7o/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-49-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "TCS Research",
+    "title": "Copy of TCSResearch Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1AhPQXexbCeyWtQKrioAsIrYNkFuEUaJCyJzX8oq-VNI/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-50-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Texas Instruments",
+    "title": "Copy of Texas Instruments",
+    "url": "https://docs.google.com/document/d/1-2B7Xi-1rxUipgpKyZ6ATCDhWiGeoxfZBT255bHENzw/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2022-23-placement-50-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Texas Instruments",
+    "title": "Copy of Texas_Instruments_placement_PrepMat",
+    "url": "https://docs.google.com/document/d/1xoJvGYy8o0VcFNGEbEr1mZViUqmOaaqlDlznnczcMMM/edit?usp=drive_link",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2022-23-internship-51-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Thoucentric Technologies Private Limited",
+    "title": "Copy of Thoucentric Technologies Private Ltd.",
+    "url": "https://docs.google.com/document/d/12uqBjrz9u6HGY2q5BztDY6y9Th15hU0tScW6ahz_szY/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-52-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Timetooth Technologies Pvt Ltd",
+    "title": "Copy of Timetooth Technologies Pvt Ltd",
+    "url": "https://docs.google.com/document/d/1Uht1bXB3hC4QDZWEf5OEQGLD-vcfgY9ob6b3oitNZ-A/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-internship-53-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Trading Technologies",
+    "title": "Copy of Trading Technologies Prepmat",
+    "url": "https://docs.google.com/document/d/1GBnUB9bM_jCO2htt9u42i1SCwHvQheYB-Uk5dqOq7Ek/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2022-23-internship-54-1",
+    "year": "2022-23",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Truminds Software Systems",
+    "title": "Copy of Truminds Internship Prepmat",
+    "url": "https://docs.google.com/document/d/1JZUwXJ-y1sS72KpNH0XVE_UA7jbGqaE0rOuTMzThBIA/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-55-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Vinculum Solutions",
+    "title": "Copy of Vinculum Solutions PrepMat",
+    "url": "https://docs.google.com/document/d/1qokaWJr4dNCpA1o7vlqn8NIAjCXQg3-BzxWC77u5spU/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2022-23-placement-56-2",
+    "year": "2022-23",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Zomato",
+    "title": "Copy of Zomato PrepMat - 2023",
+    "url": "https://docs.google.com/document/d/1IUr6cL7wSKy8dU94vuWylzq46M7yxEyf1-LYVozto9g/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-2-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "DE Shaw & Co",
+    "title": "D.E Shaw Prepmat 2021-22",
+    "url": "https://docs.google.com/document/d/126cvzIOOYOQZS0tQyDEapzpinrle1A8PilT9m0tpHsU/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2021-22-internship-3-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Salesforce",
+    "title": "Copy of Salesforce 2021-2022 Prepmat (Internship)",
+    "url": "https://docs.google.com/document/d/1027Qr5_AY04AMXbFEwbYll2lw8mE6sUJeA2mctsFe8U/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-4-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "ITC",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vSyBKxx4otEZEF2ZAuCtg2XnVTG1JYMUwkHi8506nDKZw--vL2-LDKl38InOOTXPDkXmUUT_H5bx09x/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vSyBKxx4otEZEF2ZAuCtg2XnVTG1JYMUwkHi8506nDKZw--vL2-LDKl38InOOTXPDkXmUUT_H5bx09x/pub",
+    "domain": "Engineering Core"
+  },
+  {
+    "id": "2021-22-internship-5-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Barclays",
+    "title": "PrepMat - Barclays Pvt Ltd 2020-21",
+    "url": "https://docs.google.com/document/d/1Qxff933tMuP6Rlwmwma905W5G0l5DXt_ig7ijmMwok8/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2021-22-placement-5-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Barclays",
+    "title": "Copy of Barclays Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1jINEZRryk2FEusKVj79PECyXCULiGcTuh4QgKTSMjBI/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2021-22-internship-6-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Publicis Sapient",
+    "title": "Copy of Publicis 2021-2022 Prepmat (Internship)",
+    "url": "https://docs.google.com/document/d/1LmYRYan295-ByoT4WgCgo_eiV2GecYvNx4_Lj6rY8No/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-7-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "MathWorks",
+    "title": "MathWorks Prepmat",
+    "url": "https://docs.google.com/document/d/1kRxVkjHOmcCohWgjXYEeucVAkJa7Zj33BuQqq_5v_XY/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2021-22-internship-8-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Texas Instruments",
+    "title": "Copy of PrepMat - Texas Instruments 2020-21",
+    "url": "https://docs.google.com/document/d/1IDj4L-8hcx91hTcAuvZ_fPmh-xOsPI77wh_EETRxOjA/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2021-22-internship-9-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "smartSense Consulting Solutions Pvt Ltd.",
+    "title": "Copy of SmartSense Consulting Solutions Internship Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1e00LnmYRiTt0YJPJzFjG96WRmuiOZ7mYEPVg9nCQ3h4/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2021-22-internship-10-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Spyne",
+    "title": "Copy of Spyne Prepmat",
+    "url": "https://docs.google.com/document/d/1nZYOls2ETnQEmvg3GFzJ_SaSsIU0lcMIMjZHZSCZQQQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-11-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Decimal Point Analytics",
+    "title": "Copy of Decimal Point Analytics",
+    "url": "https://docs.google.com/document/d/1gNBJSQhdIaNtK_2Xo-SVZvm2ckUF-vHr9jlsRJj0p9s/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-11-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Decimal Point Analytics",
+    "title": "Decimal Point Analytics",
+    "url": "https://docs.google.com/document/d/1QZH9Y5LdtJ6JyFAgI_P-HdrP6dszOfSkspAZxp7h7X0/edit?usp=sharing+",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-12-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Ceremorphic Technologies Private Limited",
+    "title": "Copy of Ceremorphic Technologies Private Limited",
+    "url": "https://docs.google.com/document/d/1fcK57X0BlWZ_QAW4eLyST32CvgJ5JJMQePofyaXSYI4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-13-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Orangewood Labs",
+    "title": "Copy of Orangewood Labs Internship Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1pI-79ZkI4FYC8rMRe1gQgcAcNKF3LYyLiPBZatg8kj0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-14-0",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Skan.ai",
+    "title": "Skan.ai",
+    "url": "http://skan.ai/",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-14-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Skan.ai",
+    "title": "Copy of Skan.ai Internship PrepMat 2021-22",
+    "url": "https://docs.google.com/document/d/1z73eQyGu7SJNWSkoXrHZ3xqAnVzhLoR_NdEzoWwYydU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-15-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Google",
+    "title": "Copy of Prepmat-Internship Google",
+    "url": "https://docs.google.com/document/d/1YIISmmLhO1qZDNjuNLFFjD9rI_2yjkjvJqopr8y41s8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-16-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Nvidia",
+    "title": "Copy of Prepmat-Internship Nvidia",
+    "url": "https://docs.google.com/document/d/1biJHuCdy97aKEzC_bN9TxEYioNBdjagcl53ZqzMlwps/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-16-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Nvidia",
+    "title": "Copy of NVIDIA Placement Prepmat 2021-22",
+    "url": "https://docs.google.com/document/d/1XYkQ0wG5pUDXx-4-Jl54w2NDQMffwNBE0BDgfiTN0Rg/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-17-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Siemens Technology and Services Pvt. Ltd",
+    "title": "Copy of Siemens Technology and Services Pvt Internship Prepmat 2021-22",
+    "url": "https://docs.google.com/document/d/1XRw6cHLM6ahXZKsStrIJ_hu8ZAaHuuxxdw4VcQH-jPo/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-internship-18-1",
+    "year": "2021-22",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "JSW",
+    "title": "JSW Internship Prepmat 2021-22",
+    "url": "https://docs.google.com/document/d/1q9ReZRichQi97gVC3r80Hja0GCkfH-OH6ZqUGZnoMvQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-19-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "ORACLE INDIA PVT LTD.",
+    "title": "Copy of Oracle Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1tbmVNmfHYfZta9NNt-mWNtcJVkputfmmf6JeZJsYhTk/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-20-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Tiger Analytics",
+    "title": "Copy of Tiger Analytics Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1tcPUEtqMrBn_FghXNBDQyUvEfMhYkvF3K51F1xpKkYY/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-21-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "FIITJEE LTD.",
+    "title": "Copy of FIITJEE LTD Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1htXyCe8QaPJeHmzFa9Cok0UJuOvTe9YEW1r3umb9Qbs/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-22-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Singularity Dynamics Pvt Ltd",
+    "title": "Copy of Singularity Dynamics Pvt Ltd",
+    "url": "https://docs.google.com/document/d/1phO2Nw_pf5kA409hFnWoItcfvwjEkZZoqNSMxHf2wYE/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-23-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Capgemini Technology Services India Limited",
+    "title": "Copy of Capgemini Technology Services India Limited Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1pszZi9EB2X7LyllPsObfSxp1-AQ-wrUa-fJblTzX5ow/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-24-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Wipro",
+    "title": "Copy of Wipro Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1AErvD9izbmt1rpc4KG-Vw7njtaMWL_5yokd5Z4A1ItE/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-25-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Financepeer",
+    "title": "Copy of Financepeer Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1kw6bGutipS0gV_znF9HpxOhDFxI7ePnC8xosIht_W1o/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2021-22-placement-26-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Greyornage",
+    "title": "Copy of Greyornage Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1Mb8ZCG-1wpWuDUwpreiAy6FpTJmepvKENs2yIG6AVu8/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-27-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Oracle",
+    "title": "Copy of Oracle Placement Prepmat 2021",
+    "url": "https://docs.google.com/document/d/1O4I0BFEYmInFv5kGgCSWO5zw-EdFX21GKlmHHUqHmPI/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-28-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Merilytics",
+    "title": "Copy of Merilytics 2021-2022 Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1IFcKWDAwN6MqFFK61336kWFZvxAzkhaP0S2g0DxOXXY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-29-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "KMK Consulting Inc",
+    "title": "Copy of KMK Counsulting 2021-2022 Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1lVg92JK1rygFirtr03urkFkQ-NWeTKKGqZYcqbVDb_o/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2021-22-placement-30-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Larsen & Toubro LTD",
+    "title": "Copy of Larsen & Toubro LTD Placement Prepmat 2021-2022",
+    "url": "https://docs.google.com/document/d/1V_X-kDMCsg1tMskXFgDzV4qOkd-502otvmCmMJ_gfHA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-31-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Google India",
+    "title": "Copy of Google India Placement PrepMat 2021-22",
+    "url": "https://docs.google.com/document/d/1hA3btWqajQ1aIhXdtkyqTRDPgHSYZ9TUTctwM8rmRNs/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-32-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Carrier Corporation",
+    "title": "Copy of Carrier Corporation Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1stWWgYx8j9OxetKs304T_PNTQG9jf2eP7EztXVwdglA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-33-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Mphasis",
+    "title": "Copy of Mphasis Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1HSW1k6MAC8x5lbcJfirz7sdgj_p7VH3rK1IO9-n_ndA/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-34-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Jubilant Ingrevia",
+    "title": "Copy of Jubilant Ingrevia Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1KGmijxnK-8Xqb2i6GsR2p236-Y1yRjoIQKPGTVUMK8E/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-35-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "OYO",
+    "title": "Copy of OYO 2021-2022 Prepmat",
+    "url": "https://docs.google.com/document/d/16vGfRiw5bW6MSHms98WPJWVRYduQyiRmmfad7SERTkg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-36-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "GCMMF Ltd (AMUL)",
+    "title": "Copy of GCMMF Ltd (AMUL) 2021-2022 Prepmat",
+    "url": "https://docs.google.com/document/d/1XPcWOaxz9s0OToaLel6jUQtf23yNWKrQ3xWh0iXrmfw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-37-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Educational Specialist Pvt. Ltd",
+    "title": "Copy of Educational Specialist Pvt. Ltd_Prepmat doc",
+    "url": "https://docs.google.com/document/d/1KEJXeGnaTZjrWRPdDCP1xOdRPu15aLWWBCer-qyCFTg/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-38-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "INFURNIA TECHNOLOGIES",
+    "title": "Copy of PrepMat-INFURNIA TECHNOLOGIES",
+    "url": "https://docs.google.com/document/d/1P5UkvquT88DNAfOwHfSfZnxDc4uLn1WGEkLQE6H22sM/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-39-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Graviton Research Capital LLP",
+    "title": "Copy of Prepmat-Graviton Research Capital LLP",
+    "url": "https://docs.google.com/document/d/1cxhAg7Ic3YloA-odvT7JmfLpcQljX4ovl-ClaPQmINs/edit?usp=drive_link",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2021-22-placement-40-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "BIZENSE TECHNOLOGIES",
+    "title": "Copy of Prepmat-BIZENSE TECHNOLOGIES",
+    "url": "https://docs.google.com/document/d/1xin5pCbrJ1jDCmW286f5nR6m5H4da88J4p94i1trvMQ/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-41-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "ReNew Power",
+    "title": "Copy of Prepmat-ReNew Power",
+    "url": "https://docs.google.com/document/d/1SrvD7GlNW9ORqhn1E8_MOjr_NGOZRE9wTD2D3IKpHz8/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-42-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Toppr Technologies Pvt Ltd.",
+    "title": "Copy of Toppr Technologies",
+    "url": "https://docs.google.com/document/d/13vQQdgEpJ0DZYobMI7yZEYlsVUquTBo2EJrWUq7r36A/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-43-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Riskcovry (UmboIDTech)",
+    "title": "Copy of Riskcovry Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1HQTXCaK5knhNVg2yYrjf0jQKScXZ_TbhZqj5slVeq4M/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-44-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Aarti Industries",
+    "title": "Copy of Aarti Industries Placement Prepmat",
+    "url": "https://docs.google.com/document/d/1G14qG28huwjO2r8UZy2ow09mF2F9OEjPmqApckzKeqM/edit?usp=drive_link",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2021-22-placement-45-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Cogoport Pvt. Ltd.",
+    "title": "Copy of Cogoport Pvt. Ltd Placement Prepmat 2021-22",
+    "url": "https://docs.google.com/document/d/1cyWdVMbjq2ZfE0Goz87ZMcZdglaGWBntASdCR6KQoWk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-46-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Axxela",
+    "title": "Copy of AxxelacPlacement Prepmat 2021-22",
+    "url": "https://docs.google.com/document/d/1H6pg-5JHqGr9u8dhmmnlYUZ6vb3jVblPSVT9_nWTR-A/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2021-22-placement-47-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "UnDosTres",
+    "title": "Copy of UnDosTres Placement Prepmat 2021-22",
+    "url": "https://docs.google.com/document/d/11xand_Z33l2g_eIJeHQqnhGPC763LuSGDFrv-_UdONk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-48-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Enfusion",
+    "title": "Copy of Enfusion",
+    "url": "https://docs.google.com/document/d/1cqLe-6qQ0FLEOsp4nRw7kcZ-CWLP5W6aUzY-NDo9oyM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-49-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Jio Platforms Limited",
+    "title": "Copy of Jio Platforms Limited Placement PrepMat 2021-22",
+    "url": "https://docs.google.com/document/d/1UmKbnZSJTEDmcj-_LAAe42rOZznXqubElO5VnCKi6R8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-50-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Accenture, India",
+    "title": "Copy of Accenture India Placement PrepMat 2021-22",
+    "url": "https://docs.google.com/document/d/1xQiBm0ZnXCyBjeo0HRz6I3W2uMzeL_guQgWcPaUc4o4/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2021-22-placement-51-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Deloitte India",
+    "title": "Copy of Deloitte India Placement PrepMat 2021-22",
+    "url": "https://docs.google.com/document/d/1bMP0hHaCHQi3ly_qJfz2dKMp-Cex9sU8sMeKZdGAReM/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-52-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Virtusa",
+    "title": "Copy of Virtusa Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1hrJYYxw3vFM-QclWNXp5k7i6Lu33UinRv6vIjf7EkKY/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2021-22-placement-53-2",
+    "year": "2021-22",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "ImpactGuru",
+    "title": "Copy of ImpactGuru Placement PrepMat",
+    "url": "https://docs.google.com/document/d/1JhgPXX797hb4ANc2o59_o-SvEAj0ogTjmyv2oZUj1MQ/edit?usp=drive_link",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-2-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Goldman Sachs Services Private Limited",
+    "title": "Goldman Sachs Services Private Limited Prepmat",
+    "url": "https://docs.google.com/document/d/1O735qEjJfV0pniOTnEXlIGCOy3asU590RkfL37R67tA/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2020-21-internship-3-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Nutanix Technologies India Pvt. Ltd",
+    "title": "Nutanix 2020-2021 Prepmat",
+    "url": "https://docs.google.com/document/d/112EcXZsx4m7JveOCn8BtOaDmnqC0-tlkx4e2rzYz3y4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-internship-4-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "D.E. Shaw India Pvt Ltd (Both)",
+    "title": "D.E. Shaw India Pvt Ltd -2020-2021 Prepmat",
+    "url": "https://docs.google.com/document/d/1mXjLVFj5-3G3EW3ivzWFFdOWN4mka7mYv7yBZXbVubg/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2020-21-internship-5-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Publicis Sapient (Both)",
+    "title": "Publicis Sapient - 2020 - 2021 - prepmat",
+    "url": "https://docs.google.com/document/d/1Lr7TzCfZnOcz6jtrzpX493QhBR97SKGBEILGX3_oGBk/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-5-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Publicis Sapient (Both)",
+    "title": "Publicis Sapient - 2020 - 2021 - prepmat",
+    "url": "https://docs.google.com/document/d/1AuIu5NDPYaQrmqmmR_d5ACqVnOIsbarafchITpm3Arc/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-6-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Barclays",
+    "title": "Barclays-PrepMat",
+    "url": "https://docs.google.com/document/d/1RGJyd7VyG4BHKBG6svI5YRAOUzEJg2xch2sTaDU1vvg/edit?usp=sharing",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2020-21-placement-7-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "GEP Worldwide",
+    "title": "GEP worldwide - 2020 - 2021 prepmat",
+    "url": "https://docs.google.com/document/d/1Tc77dm6N0tJrZH2-coqqUZBVt2mjFa6KCEcq4yYHYlE/edit?usp=sharing",
+    "domain": "Consulting"
+  },
+  {
+    "id": "2020-21-placement-8-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Postdot Technologies Pvt Ltd (Postman)",
+    "title": "Postdot Technologies Pvt Ltd (Postman) - 2020 - 2021 - prepmat",
+    "url": "https://docs.google.com/document/d/1Aryx9XntYNxwIlgJKiQBZ668QsfrPzvayyVMvRp6hq0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-9-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Marvell Semiconductor",
+    "title": "Marvell Semiconductors-Prepmat",
+    "url": "https://docs.google.com/document/d/1eY2qO6RxyNHvE54yAGggM8Z_roJvoRRG_gbp2fHWMTc/edit?usp=sharing",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2020-21-placement-10-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Testbook Edu Solutions Pvt ltd",
+    "title": "Copy of Testbook - PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1d-HSuEKcYTTR3ASEO00004YHXxSKg9KSBJyTUNo7ZbQ/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-internship-11-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Axxela Advisory Services",
+    "title": "Copy of Axxela Advisory Services Internship - PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/12sBzHocLYHhwaarBem6JeESvBuQ3sx2DtpRbBMEPhTw/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2020-21-placement-11-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Axxela Advisory Services",
+    "title": "Copy of Axxela Advisory Services Placement - PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1QD7WnD2Pdi-zaQzrGEmA3i2RyrdYrekcT7j1FMY2alQ/edit",
+    "domain": "Finance / Quant"
+  },
+  {
+    "id": "2020-21-placement-12-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "CEREMORPHIC INDIA PRIVATE LIMITED",
+    "title": "Ceremorphic Data Pvt Ltd Placement - PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1TKDzXMDurvxJC8Zx7eoAk7Ao3wVxXermcxsSHGkjyDw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-13-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Strand Life Sciences",
+    "title": "https://docs.google.com/document/d/1cP-OcAhTzaf4NPMQYHjmK8GmT7qiUyyFDXZcBNwCCAM/edit",
+    "url": "https://docs.google.com/document/d/1cP-OcAhTzaf4NPMQYHjmK8GmT7qiUyyFDXZcBNwCCAM/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-14-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "ICU Medical India LLP",
+    "title": "ICU Medical India LLP Placement - PrepMat 2020 -21",
+    "url": "https://docs.google.com/document/d/1rydDRi1eVabEv25k4jOY2COMhn6v_9nvH7LjkzCO3LU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-15-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Achnet Technologies",
+    "title": "Copy of Achnet - PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/16LIhh6mm6EqgGwnM8KAxQj-vR-REjcov2QWsAae-2a4/edit",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-16-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "SEDEMAC MECHATRONICS PVT LTD",
+    "title": "https://docs.google.com/document/d/1wOF5W6kESPdbo9kgGhl4rs7WYAKXI-GXpopA0Bgw65w/edit",
+    "url": "https://docs.google.com/document/d/1wOF5W6kESPdbo9kgGhl4rs7WYAKXI-GXpopA0Bgw65w/edit",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2020-21-internship-17-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "C-DAC (Both)",
+    "title": "CDAC - Internship - PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1De3ON44eOgAXowYSbk8C22MBjM3CGWojjDsStvaWV1U/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-17-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "C-DAC (Both)",
+    "title": "CDAC - Placement - PrepMat 2020 -21",
+    "url": "https://docs.google.com/document/d/1XpVdLWQ9KftamTLWHmA09RJidN-3RgKkDXUZxx9yOmc/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-18-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "SPECTRUM Techno Consultants Pvt Ltd",
+    "title": "Spectrum Techno Consultants Ltd.",
+    "url": "https://docs.google.com/document/d/1eGTFUhaT1-lPf3MCB5vorHTkpmdWKiz3DyiMvRGBBwI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-19-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "JSW (Both)",
+    "title": "Prepmat for JSW",
+    "url": "https://docs.google.com/document/d/1WnTyZykFM49mqKpSy5pr9GtXJfSodv-eT6kWyZp-re4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-20-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Xylem Incorporation",
+    "title": "Xylem",
+    "url": "https://docs.google.com/document/d/1lakLT4cRlQfVQJZpd9U3mEPaFBP-bsNcA4tXHk-bDXY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-21-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "HLE Glascoat Limited",
+    "title": "HLE Glascoat Limited - Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/13nVUTp4VGtdBVxJ567YCaLMqqBia9ktERmGlvOClMzg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-22-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "K12 Techno Services Pvt Ltd.",
+    "title": "Copy of K12 Techno Services Pvt Ltd - Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1ULut2pUJrMLrKOksDayK7QkzhSfpovzbjXCS2VWeUdU/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-23-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "TROIKAA PHARMACEUTICALS LIMITED",
+    "title": "Copy of TROIKAA PHARMACEUTICALS LIMITED- Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1RocXjgFevKZ2vHufw9QsuHWXbd760R6YsvrhxYh1J0s/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-24-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Hemani Industries Limited",
+    "title": "Hemani Industries Limited - Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/192XE9119HO63l_abMPqyLGjY1qcKMoK4l8CIMEXJfZY/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-25-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "K12 Techno Services",
+    "title": "Copy of K12 Techno Services - Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1ThFNf29PDZoPIh9GlFHM7PRXN7SWNgYe2jIneZaErco/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-26-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Adani Total Gas Limited",
+    "title": "Copy of Adani Total Gas Limited- Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/14zrgXEPtOh2eSibmHvQaXiuNLZxSoQbBSlWVF3LcktE/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-27-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Pirimid Fintech LLP",
+    "title": "Pirimid Fintech LLP- Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1WH-63jo_krWn4wHUSeh2fs3MrXhyk66f-oFXoHj-fe4/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-28-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "CDAC",
+    "title": "CDAC - Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1lz32fUWjsxhlJg5q8lPjBjvGozjorSANKmx7jVnyINI/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-29-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "SIM Advisory",
+    "title": "SIM Advisory - Placement PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1aADKmU5Ejj40g6Vqy9Ty_xbvo84mdFUFAFFpAsb1wG0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-30-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "NVIDIA",
+    "title": "Nvidia",
+    "url": "https://docs.google.com/document/d/1ikpkPnrzmqmkdfDebRsLCmLrWA-L8iMx3l2gPJb2Dp8/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-internship-31-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "ITC LIMITED",
+    "title": "ITC internship process experience",
+    "url": "https://docs.google.com/document/d/1hZU9Q1q0PIFWbnMO8Lz6NqktdM0I-jeWoVqInpDWQpE/edit?usp=sharing",
+    "domain": "Engineering Core"
+  },
+  {
+    "id": "2020-21-internship-32-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Letra Graphix Pvt Ltd",
+    "title": "Letra Graphix Pvt Ltd - Internship PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/172PkTObRE6863kHvODrnt0PQOP8yEcutVV2GQtHDQAw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-internship-33-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Ford India Pvt. Ltd.",
+    "title": "Copy of Ford India Pvt Ltd - Internship PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1Xd7Ug6ONLfqvfW89QjnE7xdodzxpPMIh46tVHrFUlpo/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-internship-34-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "KHS Machinery Pvt. Ltd.",
+    "title": "KHS Machinery - Internship PrepMat 2020-21",
+    "url": "https://docs.google.com/document/d/1-wwkICGsTWxX1QKMeK5cM8vLzUawfBMF5PELeofHYZg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-internship-35-1",
+    "year": "2020-21",
+    "type": "Internship",
+    "subType": "Internship PrepMat",
+    "company": "Capgemini",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vT_UhFe2ZjMW_nlt0ALJDbEgooMwicG2i4a1ZI2_yXKy_4x8LN-JxFeafh01WC2HrWEakBqxoJGgO3K/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vT_UhFe2ZjMW_nlt0ALJDbEgooMwicG2i4a1ZI2_yXKy_4x8LN-JxFeafh01WC2HrWEakBqxoJGgO3K/pub",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-36-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Engineering services International",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vRF1CUFiltMZdQvztDQ8gqvnDkr6qMtUwxLS4VYi2INopN-Ap-RAVQvehrmuhBOVgkkUf01ma3iRJvJ/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vRF1CUFiltMZdQvztDQ8gqvnDkr6qMtUwxLS4VYi2INopN-Ap-RAVQvehrmuhBOVgkkUf01ma3iRJvJ/pub",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-37-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Google",
+    "title": "Google 2 year prepmat",
+    "url": "https://docs.google.com/document/d/1HAt1IaIdM0t8-bSANN8xA5OV02XaqCYbqP3_RC4_9Dw/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-38-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Codenation Innovation Labs (Both)",
+    "title": "Copy of Codenation Innovation Labs 2020-2021 Prepmat",
+    "url": "https://docs.google.com/document/d/1tJJ8VIU1GQbdj4xLfTKmnD6yfiAxC27nA3-m1l4hHxg/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-39-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Signalchip Innovations Pvt Ltd",
+    "title": "Copy of Signalchip Innovations Pvt Ltd 2020-2021 Prepmat",
+    "url": "https://docs.google.com/document/d/1YounqYuNiTTNPtbmTUWhTuq80tQwLsgw2sZ534uSkU0/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-40-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Technoforte Software Pvt Ltd",
+    "title": "Copy of Technoforte Software Pvt Ltd 2020-2021 Prepmat",
+    "url": "https://docs.google.com/document/d/1Id1CMDxEbqN79VgMLQeg5oYSqXZiCvodcrHrkrEsCYk/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-41-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Optum, UHG (Both)",
+    "title": "Optum, UHG 2020-2021 Prepmat",
+    "url": "https://docs.google.com/document/d/1kQxMPn7tmtfKWtWe7Pl4Ar0kRAevoQ0qJT2br_Hy_8A/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-42-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Swiggy-Bundl Technologies Pvt. Ltd.",
+    "title": "Copy of Swiggy-Bundl Technologies Pvt. Ltd. 2020-2021 Prepmat",
+    "url": "https://docs.google.com/document/d/1iixp0PTqcJYt11RCnVX6BfiCs1_8mDah_trMrf-83EQ/edit?usp=sharing",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-43-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "AwaazDe Infosystem Pvt Ltd",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vS-DFqRfNNS2qn9_3iKGIpxRafpQDNjMTOSKOrd1TNIIIAa3FQAAHNh9NMpvlZioVekLYUMlXG-uTi2/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vS-DFqRfNNS2qn9_3iKGIpxRafpQDNjMTOSKOrd1TNIIIAa3FQAAHNh9NMpvlZioVekLYUMlXG-uTi2/pub",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-44-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Nagarro Software (P) Ltd",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vRTQpmIpl2HPay9he3x2wCk2LHHzxZcRga6SjCupAPcVWWlMh0Jzq2NqXXLpFohWzBX0EwmaFvMhp4l/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vRTQpmIpl2HPay9he3x2wCk2LHHzxZcRga6SjCupAPcVWWlMh0Jzq2NqXXLpFohWzBX0EwmaFvMhp4l/pub",
+    "domain": "Hardware / Core"
+  },
+  {
+    "id": "2020-21-placement-45-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "MEESHO",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vRHmVz7lrUhOe4dhLauXIV5nA4SxKXVXtUH-QQmpteiQnbDxRBhzzeZN5iJUX3j-OX2d5NHBKSUuSrf/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vRHmVz7lrUhOe4dhLauXIV5nA4SxKXVXtUH-QQmpteiQnbDxRBhzzeZN5iJUX3j-OX2d5NHBKSUuSrf/pub",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-46-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "CGI",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vQBoCNtlqH6wEwkdam8h2T22vo9b9kNSt1Z3L3FZSfYVVSoBC-HiMNkEKa1iQYpUEEW77fz4S43owhF/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vQBoCNtlqH6wEwkdam8h2T22vo9b9kNSt1Z3L3FZSfYVVSoBC-HiMNkEKa1iQYpUEEW77fz4S43owhF/pub",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-47-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "MAQ Software",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vQ5-Yoa8wS0Zu0iuXO5Vak3Z7bU42Yf-9Xgg_N7g0a1j_-DtMP_a_YUm4aoeDHINaj17VkErqDZKvAS/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vQ5-Yoa8wS0Zu0iuXO5Vak3Z7bU42Yf-9Xgg_N7g0a1j_-DtMP_a_YUm4aoeDHINaj17VkErqDZKvAS/pub",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-48-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Atom",
+    "title": "https://docs.google.com/document/d/e/2PACX-1vQvBESX1lkzWArFXeg9l7_X4O57s552YX2tpzwlAuUrvuyGASSvS9GT_YN6VIi4PkuFF1Qs-ouQIEVk/pub",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vQvBESX1lkzWArFXeg9l7_X4O57s552YX2tpzwlAuUrvuyGASSvS9GT_YN6VIi4PkuFF1Qs-ouQIEVk/pub",
+    "domain": "Software / Tech"
+  },
+  {
+    "id": "2020-21-placement-49-2",
+    "year": "2020-21",
+    "type": "Placement",
+    "subType": "Placement PrepMat",
+    "company": "Perceptive Analytics Pvt Ltd",
+    "title": "Copy of PrepMat - Perceptive Analytics Pvt Ltd 2020-21",
+    "url": "https://docs.google.com/document/d/1smQ4t8N-oPatMXZgj5ZjCnqsPK1cA_ZxCqO1tu2jFjc/edit?usp=sharing",
+    "domain": "Software / Tech"
+  }
+]

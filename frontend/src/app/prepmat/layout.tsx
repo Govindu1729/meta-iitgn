@@ -3,10 +3,10 @@ import AppLayout from "@/components/helpers/AppLayout";
 import { getSeoMetadata, getBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = getSeoMetadata({
-  title: "Academic Calendar & Semester Schedule",
-  description: "Track key semester start dates, course registration deadlines, mid/end semester exam schedules, recess, and holidays for IIT Gandhinagar on META IITGN.",
-  path: "/calender",
-  keywords: ["IITGN Academic Calendar", "IIT Gandhinagar Semester Schedule", "IITGN Registration Deadlines"],
+  title: "IITGN PrepMat - Placement & Internship Resources",
+  description: "Comprehensive year-wise placement and internship preparation material, company archives, and official interview guidance for IIT Gandhinagar on META IITGN.",
+  path: "/prepmat",
+  keywords: ["IITGN PrepMat", "IIT Gandhinagar Placement Resources", "Internship Preparation", "Interview Docs", "PDC PrepMat"],
 });
 
 export default function Layout({
@@ -16,7 +16,7 @@ export default function Layout({
 }) {
   const breadcrumbSchema = getBreadcrumbSchema([
     { name: "Home", item: "/" },
-    { name: "Academic Calendar", item: "/calender" },
+    { name: "PrepMat", item: "/prepmat" },
   ]);
 
   return (
