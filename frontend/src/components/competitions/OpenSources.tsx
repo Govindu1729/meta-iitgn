@@ -17,6 +17,7 @@ import {
   X,
   Folder,
   Type,
+  Code2,
 } from "lucide-react";
 
 // ---------------------------------------------------------------------------
@@ -142,81 +143,136 @@ function SidebarSkeleton() {
 interface RepoCardProps {
   repo:     GitHubRepo;
   featured: boolean;
+  
 }
+
+
 
 function RepoCard({ repo, featured }: RepoCardProps) {
   return (
     <a
       href={repo.html_url}
       target="_blank"
-      rel="noreferrer"
-      className={`group card bg-base-100 border transition-all duration-200 hover:shadow-md hover:-translate-y-0.5 ${
-        featured
-          ? "border-primary/40 ring-1 ring-primary/20"
-          : "border-base-200 hover:border-base-300"
-      }`}
+      rel="noopener noreferrer"
+      className={`group block rounded-[20px] border bg-base-100
+        p-4 transition-all duration-200
+        hover:-translate-y-0.5 hover:border-primary/40
+        hover:shadow-lg hover:shadow-base-content/[0.04]
+        ${
+          featured
+            ? "border-primary/35"
+            : "border-base-300/70"
+        }`}
     >
-      <div className="card-body p-4 gap-3">
-        {/* Header */}
-        <div className="flex items-start gap-3">
-          <Image
-            src={repo.owner.avatar_url}
-            alt={repo.owner.login}
-            width={40}
-            height={40}
-            className="rounded-lg shrink-0 object-cover ring-1 ring-base-300"
-          />
-          <div className="min-w-0 flex-1">
-            <div className="flex items-center justify-between gap-2">
-              <h3 className="font-semibold text-sm truncate group-hover:text-primary transition-colors">
-                {repo.name}
-              </h3>
-              <ExternalLink className="h-3.5 w-3.5 shrink-0 text-base-content/30 group-hover:text-base-content/60 transition-colors" />
-            </div>
-            <p className="text-xs text-base-content/50 truncate">{repo.full_name}</p>
+      {/* Repository details */}
+      <div className="flex items-start gap-3">
+        <Image
+          src={repo.owner.avatar_url}
+          alt={`${repo.owner.login} avatar`}
+          width={64}
+          height={64}
+          className="h-16 w-16 shrink-0 rounded-2xl
+            border border-base-300/50 object-cover"
+        />
+
+        <div className="min-w-0 flex-1">
+          {/* Name and status */}
+          <div className="flex flex-wrap items-center gap-2">
+            <h3 className="text-base font-semibold tracking-tight
+              text-base-content group-hover:text-primary
+              transition-colors">
+              {repo.owner.login} / {repo.name}
+            </h3>
+
+            {featured && (
+              <span className="rounded-full bg-success/10
+                px-2 py-1 text-xs font-medium text-success">
+                Featured
+              </span>
+            )}
           </div>
-        </div>
 
-        {/* Description */}
-        <p className="text-sm text-base-content/70 line-clamp-2 leading-relaxed">
-          {repo.description ?? "No description provided."}
-        </p>
+          {/* Description */}
+          <p className="mt-1 text-sm leading-5
+            text-base-content/75 line-clamp-2">
+            {repo.description || "No description provided."}
+          </p>
 
-        {/* Topics */}
-        {repo.topics && repo.topics.length > 0 && (
-          <div className="md:flex hidden flex-wrap gap-1">
-            {repo.topics.slice(0, 4).map((t) => (
-              <span key={t} className="badge badge-ghost badge-xs">{t}</span>
-            ))}
-          </div>
-        )}
-
-        {/* Stats footer */}
-        <div className="flex items-center gap-4 text-xs text-base-content/50 pt-1 border-t border-base-200">
-          {repo.language && (
-            <span className="flex items-center gap-1 font-medium text-base-content/70">
-              <span className="h-2 w-2 rounded-full bg-primary inline-block" />
-              {repo.language}
+          {/* Repository metadata */}
+          <div className="mt-2 flex flex-wrap items-center gap-x-4
+            gap-y-1 text-xs text-base-content/70">
+            <span className="inline-flex items-center gap-1">
+              <Star className="h-3.5 w-3.5" />
+              {formatCount(repo.stargazers_count)}
             </span>
+
+            <span className="inline-flex items-center gap-1">
+              <GitFork className="h-3.5 w-3.5" />
+              {formatCount(repo.forks_count)}
+            </span>
+
+            {repo.language && (
+              <span className="inline-flex items-center gap-1">
+                <Code2 className="h-3.5 w-3.5" />
+                {repo.language}
+              </span>
+            )}
+          </div>
+
+          {/* Topics */}
+          {repo.topics?.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-2">
+              {repo.topics.slice(0, 3).map((topic) => (
+                <span
+                  key={topic}
+                  className="rounded-full bg-base-200
+                    px-2.5 py-1 text-xs font-medium
+                    text-base-content/80"
+                >
+                  {topic}
+                </span>
+              ))}
+
+              {repo.topics.length > 3 && (
+                <span className="px-1 py-1 text-xs
+                  text-base-content/50">
+                  +{repo.topics.length - 3}
+                </span>
+              )}
+            </div>
           )}
-          <span className="flex items-center gap-1">
-            <Star className="h-3 w-3" />
-            {formatCount(repo.stargazers_count)}
-          </span>
-          <span className="flex items-center gap-1">
-            <GitFork className="h-3 w-3" />
-            {formatCount(repo.forks_count)}
-          </span>
-          <span className="flex items-center gap-1">
-            <Eye className="h-3 w-3" />
-            {formatCount(repo.watchers_count)}
-          </span>
-          <span className="ml-auto hidden md:flex text-[11px]">Updated {timeAgo(repo.updated_at)}</span>
         </div>
+      </div>
+
+      {/* Divider */}
+      <div className="my-4 border-t border-base-300/60" />
+
+      {/* Footer */}
+      <div className="flex flex-wrap items-center
+        justify-between gap-3 text-sm">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1
+          text-xs text-base-content/60">
+          <span>
+            Updated {timeAgo(repo.updated_at)}
+          </span>
+
+          <span aria-hidden="true">·</span>
+
+          <span>Open on GitHub</span>
+        </div>
+
+        <span className="inline-flex items-center gap-1
+          font-medium text-primary transition-all
+          group-hover:gap-2">
+          View repository
+          <span aria-hidden="true">→</span>
+        </span>
       </div>
     </a>
   );
 }
+
+
 
 // ---------------------------------------------------------------------------
 // Sidebar repo row
