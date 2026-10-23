@@ -10,11 +10,11 @@ export default function HomeHeroNew() {
       {/* Background IITGN Campus Image */}
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105"
-        style={{ backgroundImage: `url('/homepage_bg.png')` }}
+        style={{ backgroundImage: `url('/homepage_bg.webp')` }}
       />
 
       {/* Dark Cinematic Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/40" />
+      <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/40 to-black/20" />
       <div className="absolute inset-0 bg-radial-at-tl from-indigo-900/30 via-transparent to-transparent pointer-events-none" />
 
       {/* Hero Content */}

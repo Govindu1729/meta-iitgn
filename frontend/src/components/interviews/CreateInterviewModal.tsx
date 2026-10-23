@@ -129,7 +129,7 @@ export default function CreateInterviewModal({ isOpen, onClose, onPostCreated }:
       title="Share Interview Experience"
       maxWidthClass="max-w-2xl"
     >
-      <form onSubmit={handleSubmit} className="flex flex-col gap-5 text-sans select-text pb-6">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-5 text-sans select-text pb-6 mb-10">
         {/* Notice Banner */}
         <div className="flex items-start gap-3 p-3.5 rounded-2xl bg-primary/10 border border-primary/20 text-xs text-base-content/85">
           <AlertCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />

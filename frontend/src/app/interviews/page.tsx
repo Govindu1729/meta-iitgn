@@ -219,7 +219,13 @@ export default function InterviewFeedPage() {
                   Be the first student to share your interview experience for this tag or company!
                 </p>
                 <button
-                  onClick={() => setIsCreateModalOpen(true)}
+                  onClick={() => {
+                  if (!currentUser) {
+                    toast.error("Please sign in to create a post!");
+                    return;
+                  }
+                  setIsCreateModalOpen(true);
+                }}
                   className="btn btn-primary btn-sm rounded-xl font-bold mt-2"
                 >
                   <Plus className="h-4 w-4" /> Create First Post

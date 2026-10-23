@@ -232,10 +232,6 @@ export default function PrepMatPage() {
                 <Lock className="h-8 w-8" />
               </div>
               <div className="flex items-center gap-2">
-                <span className="badge badge-warning font-semibold text-xs py-2 px-3">
-                  <ShieldAlert className="h-3.5 w-3.5 mr-1" />
-                  Sensitive Campus Data
-                </span>
                 <span className="badge badge-outline text-xs py-2 px-3">
                   IITGN Student Access Only
                 </span>
@@ -247,12 +243,6 @@ export default function PrepMatPage() {
               <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-base-content">
                 Sign In Required to Access PrepMat
               </h2>
-              <p className="text-sm text-base-content/70 leading-relaxed max-w-md mx-auto">
-                Preparation Material (PrepMat) contains confidential campus
-                placement questions, interview feedback, company test pattern
-                docs, and career drive archives. Guest access is restricted to
-                protect student privacy and institute resources.
-              </p>
             </div>
 
             {/* Feature Checklist */}

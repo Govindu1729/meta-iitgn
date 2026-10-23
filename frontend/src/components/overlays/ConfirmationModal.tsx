@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { AlertTriangle, AlertCircle, Info, ArrowLeft } from "lucide-react";
 
 interface ConfirmationModalProps {
@@ -39,7 +40,7 @@ export default function ConfirmationModal({
     };
   }, [isOpen]);
 
-  if (!isOpen || !isMounted) return null;
+  if (!isOpen || !isMounted || typeof document === "undefined") return null;
 
   const getIcon = () => {
     switch (type) {
@@ -63,7 +64,7 @@ export default function ConfirmationModal({
     }
   };
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-[25000] flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
@@ -117,6 +118,7 @@ export default function ConfirmationModal({
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
