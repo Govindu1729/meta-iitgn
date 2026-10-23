@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { ArrowLeft, Maximize2, Minimize2 } from "lucide-react";
 import ProfilePopover from "@/components/navs/ProfilePopover";
 
@@ -178,9 +179,9 @@ export default function GenericOverlayModal({
     document.addEventListener("mouseup", handleMouseUp);
   };
 
-  if (!shouldRender) return null;
+  if (!shouldRender || !isMounted || typeof document === "undefined") return null;
 
-  return (
+  return createPortal(
     <div
       className={`fixed inset-0 z-[20000] flex min-h-screen items-center justify-center overflow-hidden font-sans ${
         isMaximized ? "p-0" : "p-0 sm:p-4"
@@ -315,6 +316,7 @@ export default function GenericOverlayModal({
           {children}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

@@ -32,6 +32,7 @@ export default function HomeCategoriesNew({
       href: "/prepmat",
       slug: "prepmat",
       isNew: true,
+      imageUrl:"https://plus.unsplash.com/premium_photo-1727209457841-1aeb2533b9b3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
       isDirectRoute: true,
       bgGradient: "from-indigo-950 via-slate-900 to-cyan-950/80",
     },
@@ -42,6 +43,7 @@ export default function HomeCategoriesNew({
       icon: MessageSquare,
       href: "/interviews",
       slug: "interviews",
+      imageUrl:"https://plus.unsplash.com/premium_photo-1683865775849-b958669dca26?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
       isDirectRoute: true,
       bgGradient: "from-blue-950 via-indigo-950 to-slate-900",
     },
@@ -52,6 +54,7 @@ export default function HomeCategoriesNew({
       icon: PenTool,
       href: "/blog",
       slug: "blog",
+      imageUrl:"https://images.unsplash.com/photo-1638342863994-ae4eee256688?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
       isDirectRoute: true,
       bgGradient: "from-purple-950 via-slate-900 to-indigo-950",
     },
@@ -61,6 +64,7 @@ export default function HomeCategoriesNew({
       description: "Student bodies, tech & cult clubs",
       icon: Users2,
       href: "/wiki/clubs",
+      imageUrl:"https://plus.unsplash.com/premium_photo-1723795275988-3cb3779f0230?q=80&w=1682&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
       slug: "clubs",
       bgGradient: "from-emerald-950/80 via-slate-900 to-teal-950/80",
     },
@@ -71,6 +75,7 @@ export default function HomeCategoriesNew({
       icon: Calendar,
       href: "/wiki/fests",
       slug: "fests",
+      imageUrl:"https://images.openai.com/static-rsc-4/NBIuQ_ogubFOBzU9ecI3w_5Vo44SykZ3I5Ajm2i9XC2HJ5yVMF6oBUv-EL2rydWf7p0cG-_m1J-_eVvTXXKVydMGC8LAEEgrAYQX_cutph6R-WOXexvjQ29lQHpeerCL0QdvYrAZ8VfVx1jci_IR3mmuqdXWaiPI0C38OfE7eHQAuSjvtqnrsVeusC8YIolS?purpose=fullsize",
       bgGradient: "from-rose-950/90 via-slate-900 to-purple-950/80",
     },
     {
@@ -80,6 +85,7 @@ export default function HomeCategoriesNew({
       icon: Trophy,
       href: "/competitions",
       slug: "competitions",
+      imageUrl:"https://images.openai.com/static-rsc-4/zBR_dAwbBKUti1JMRItln5U_XopdmTAtrH6NRpL_vDM8KWPdku_SMAi3bzh6TRkfbANl5D7ZHlRQ_e2vhbB7jOT4jAvJs6swOgwlXnDpBFkzvd6zUkr8K4rkgP3oAfVZvU0Nyzuy2l0q5VHlV6l9FLopfP9q3CQrK_TFLHJWKkg?purpose=inline",
       isDirectRoute: true,
       bgGradient: "from-amber-950/90 via-stone-900 to-orange-950/80",
     },
@@ -90,6 +96,7 @@ export default function HomeCategoriesNew({
       icon: GraduationCap,
       href: "/wiki/student-life",
       slug: "student-life",
+      imageUrl:"https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?q=80&w=1634&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
       bgGradient: "from-cyan-950/80 via-slate-900 to-blue-950/80",
     },
     {
@@ -99,6 +106,7 @@ export default function HomeCategoriesNew({
       icon: Briefcase,
       href: "/wiki/off-campus",
       slug: "off-campus",
+      imageUrl:"https://images.openai.com/static-rsc-4/jhxxnyJfNtLRzzmoXronX_NkrGTJ730eDza33CLwQkfRXhi7n1cgNdwriA6evL-kSsAvb-tNdG1-K3aWF5X_yGBe-ZzmEReMXJcQiZvL3HxyCvnjtYABv7y7z5H0YXR54132p0I0iS44EaBIHWeEl1TsSRWiXcEhrYKqoKmE9MUkkwpM7cNzNAxexoBDpNmU?purpose=fullsize",
       bgGradient: "from-stone-950 via-neutral-900 to-zinc-900",
     },
   ];
@@ -118,7 +126,7 @@ export default function HomeCategoriesNew({
             onClick={onOpenAllCategories}
             className="text-xs sm:text-sm font-bold text-primary hover:underline flex items-center gap-1 shrink-0 cursor-pointer"
           >
-            <span>View All Categories</span>
+            <span>View All</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         )}
@@ -142,13 +150,13 @@ export default function HomeCategoriesNew({
             >
               {/* Background gradient & subtle texture */}
               <div
-                className={`absolute inset-0 bg-gradient-to-br ${cat.bgGradient} transition-transform duration-500 group-hover:scale-105`}
+                className={`absolute inset-0 bg-linear-to-br ${cat.bgGradient} transition-transform duration-500 group-hover:scale-105`}
               />
               <div
-                className="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-overlay group-hover:opacity-40 transition-opacity"
-                style={{ backgroundImage: `url('/homepage_bg.png')` }}
+                className="absolute inset-0 bg-cover bg-center  mix-blend-overlay group-hover:opacity-40 transition-opacity"
+                style={{ backgroundImage: `url(${cat.imageUrl})` }}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" /> */}
 
               {/* Card Content */}
               <div className="relative z-10 flex items-end justify-between gap-2">

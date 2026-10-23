@@ -14,7 +14,7 @@ export default function HomeHeroNew() {
       />
 
       {/* Dark Cinematic Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/40" />
+      <div className="absolute inset-0 bg-linear-to-r from-black/90 via-black/75 to-black/40" />
       <div className="absolute inset-0 bg-radial-at-tl from-indigo-900/30 via-transparent to-transparent pointer-events-none" />
 
       {/* Hero Content */}
