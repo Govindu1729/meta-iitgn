@@ -1,9 +1,10 @@
 "use client";
 
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { toast } from "react-hot-toast";
 import Link from "next/link";
-import ReactMarkdown from "react-markdown";
+import { marked } from "marked";
+import DOMPurify from "dompurify";
 import GenericOverlayModal from "@/components/overlays/GenericOverlayModal";
 import MilkdownEditor from "@/components/article/milkdown-editor";
 import { useSearchParams } from "next/navigation";
@@ -126,6 +127,24 @@ export default function ProfileContent() {
   const [profileUser, setProfileUser] = useState<any>(null);
   const [profileStats, setProfileStats] = useState<any>(null);
   const [profileReadme, setProfileReadme] = useState<string | null>(null);
+  const renderedReadmeHtml = useMemo(() => {
+    if (!profileReadme) return "";
+    try {
+      const raw = marked.parse(profileReadme, {
+        async: false,
+        breaks: true,
+        gfm: true,
+      }) as string;
+      if (typeof window !== "undefined" && typeof DOMPurify.sanitize === "function") {
+        return DOMPurify.sanitize(raw, {
+          ADD_ATTR: ["target", "align"],
+        });
+      }
+      return raw;
+    } catch {
+      return profileReadme;
+    }
+  }, [profileReadme]);
   const [recentActivity, setRecentActivity] = useState<any[]>([]);
   const [dataLoading, setDataLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<
@@ -766,7 +785,7 @@ export default function ProfileContent() {
                 </button>
               )}
             </div>
-            <div className="prose prose-xs max-w-none text-base-content/75 grow">
+            <div className="grow">
               {dataLoading ? (
                 <div className="space-y-2">
                   {[1, 2, 3].map((i) => (
@@ -777,22 +796,10 @@ export default function ProfileContent() {
                   ))}
                 </div>
               ) : profileReadme ? (
-                <ReactMarkdown
-                  components={{
-                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                    a: ({ node: _n, ...props }) => <span>{props.children}</span>,
-                    img: () => null,
-                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                    code: ({ node: _n2, ...props }) => <span>{props.children}</span>,
-                    // table: () => null,
-                    // thead: () => null,
-                    // tbody: () => null,
-                    // tr: () => null,
-                    // td: () => null,
-                  }}
-                >
-                  {profileReadme}
-                </ReactMarkdown>
+                <div
+                  className="readme-content prose prose-sm md:prose-base max-w-none text-base-content leading-relaxed font-sans dark:prose-invert break-words overflow-x-auto w-full"
+                  dangerouslySetInnerHTML={{ __html: renderedReadmeHtml }}
+                />
               ) : (
                 <div className="flex flex-col gap-2.5">
                   <p className="text-xs text-base-content/40 italic">
