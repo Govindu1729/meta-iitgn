@@ -784,11 +784,11 @@ export default function ProfileContent() {
                     img: () => null,
                     // eslint-disable-next-line @typescript-eslint/no-unused-vars
                     code: ({ node: _n2, ...props }) => <span>{props.children}</span>,
-                    table: () => null,
-                    thead: () => null,
-                    tbody: () => null,
-                    tr: () => null,
-                    td: () => null,
+                    // table: () => null,
+                    // thead: () => null,
+                    // tbody: () => null,
+                    // tr: () => null,
+                    // td: () => null,
                   }}
                 >
                   {profileReadme}
