@@ -8,30 +8,14 @@ export interface WikiTheme {
   label: string;
 }
 
-export const DAISY_THEME_IDS = ["cupcake","coffee","winter","acid","pastel","dark","light","black","halloween","dracula","lemonade","silk","sunset","luxury","synthwave","corporate","business","fantasy","valentine","forest","aqua","abyss","garden","lofi","wireframe","nord","autumn","bumblebee","emerald","caramellatte","cyberpunk","cmyk","retro","dim","night"] as const;
+export const DAISY_THEME_IDS = ["cupcake","dark","light"] as const;
 
-export const DAISY_DARK_THEME_IDS = ["coffee","dark","black","halloween","dracula","sunset","luxury","synthwave","business","forest","aqua","abyss","dim","night"] as const;
+export const DAISY_DARK_THEME_IDS = ["dark"] as const;
 
 export const WIKI_THEMES: WikiTheme[] = [
   {
     "id": "cupcake",
     "label": "Cupcake"
-  },
-  {
-    "id": "coffee",
-    "label": "Coffee"
-  },
-  {
-    "id": "winter",
-    "label": "Winter"
-  },
-  {
-    "id": "acid",
-    "label": "Acid"
-  },
-  {
-    "id": "pastel",
-    "label": "Pastel"
   },
   {
     "id": "dark",
@@ -40,118 +24,6 @@ export const WIKI_THEMES: WikiTheme[] = [
   {
     "id": "light",
     "label": "Light"
-  },
-  {
-    "id": "black",
-    "label": "Black"
-  },
-  {
-    "id": "halloween",
-    "label": "Halloween"
-  },
-  {
-    "id": "dracula",
-    "label": "Dracula"
-  },
-  {
-    "id": "lemonade",
-    "label": "Lemonade"
-  },
-  {
-    "id": "silk",
-    "label": "Silk"
-  },
-  {
-    "id": "sunset",
-    "label": "Sunset"
-  },
-  {
-    "id": "luxury",
-    "label": "Luxury"
-  },
-  {
-    "id": "synthwave",
-    "label": "Synthwave"
-  },
-  {
-    "id": "corporate",
-    "label": "Corporate"
-  },
-  {
-    "id": "business",
-    "label": "Business"
-  },
-  {
-    "id": "fantasy",
-    "label": "Fantasy"
-  },
-  {
-    "id": "valentine",
-    "label": "Valentine"
-  },
-  {
-    "id": "forest",
-    "label": "Forest"
-  },
-  {
-    "id": "aqua",
-    "label": "Aqua"
-  },
-  {
-    "id": "abyss",
-    "label": "Abyss"
-  },
-  {
-    "id": "garden",
-    "label": "Garden"
-  },
-  {
-    "id": "lofi",
-    "label": "Lofi"
-  },
-  {
-    "id": "wireframe",
-    "label": "Wireframe"
-  },
-  {
-    "id": "nord",
-    "label": "Nord"
-  },
-  {
-    "id": "autumn",
-    "label": "Autumn"
-  },
-  {
-    "id": "bumblebee",
-    "label": "Bumblebee"
-  },
-  {
-    "id": "emerald",
-    "label": "Emerald"
-  },
-  {
-    "id": "caramellatte",
-    "label": "Caramellatte"
-  },
-  {
-    "id": "cyberpunk",
-    "label": "Cyberpunk"
-  },
-  {
-    "id": "cmyk",
-    "label": "CMYK"
-  },
-  {
-    "id": "retro",
-    "label": "Retro"
-  },
-  {
-    "id": "dim",
-    "label": "Dim"
-  },
-  {
-    "id": "night",
-    "label": "Night"
   }
 ];
 
